@@ -1,0 +1,35 @@
+.title-style {
+    text-align: center;
+}
+
+.menu-color-home {
+    background-color: greenyellow;
+}
+.menu-color-events {
+    background-color: turquoise;
+}
+.menu-color-juniors {
+    background-color: greenyellow;
+}
+.menu-color-gallery {
+    background-color: turquoise;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0px;
+}
+.menucontainer {
+    font-size: 0;
+}
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    text-align: center;
+}
+#nav li a {
+    color: black;
+}
+#nav-foot li {
+    font-size: 14px;
+    padding: 0;
+    text-align: center;
+}
