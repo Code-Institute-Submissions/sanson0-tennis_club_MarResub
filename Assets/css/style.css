@@ -33,3 +33,57 @@
     padding: 0;
     text-align: center;
 }
+#hero-image {
+    height: 900px;
+    width: 100%;
+    background: url("https://image.shutterstock.com/z/stock-photo-young-woman-playing-tennis-294960158.jpg"
+) no-repeat center center;
+}
+#question-image {
+    height: 100px;
+    width: 40%;
+    background: url("https://image.shutterstock.com/image-vector/tennis-racquet-flat-icon-on-600w-497850328.jpg") no-repeat center center;
+}
+.question1 {
+    font-size: larger;
+    font-weight: 700;
+}
+.t-ball {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background: url("https://image.shutterstock.com/image-photo/tennis-ball-isolated-on-white-600w-659857153.jpg"
+) no-repeat center center;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.tennis-ball {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background: url("https://image.shutterstock.com/image-photo/tennis-ball-isolated-on-white-600w-659857153.jpg"
+) no-repeat center center;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 80px;
+}
+#ethos-three li{
+    font-size: 14px;
+    padding: 0;
+    text-align: center;
+}
+#main-space {
+    height: 400px;
+    width: 100%;
+}
+
+.text-ball p {
+    padding-top: 0px;
+    padding-left: 20px;
+}
