@@ -1,7 +1,7 @@
 .title-style {
     text-align: center;
 }
-
+/*------------colours*/
 .menu-color-home {
     background-color: greenyellow;
 }
@@ -21,7 +21,8 @@
     font-size: 0;
 }
 #nav li {
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 700;
     padding: 0;
     text-align: center;
 }
@@ -82,8 +83,66 @@
     height: 400px;
     width: 100%;
 }
+p {
+    font-size: 20px;
+}
 
 .text-ball p {
     padding-top: 0px;
     padding-left: 20px;
+}
+#many-players {
+    height: 600px;
+    width: 100%;
+    background: url("https://image.shutterstock.com/z/stock-photo-tennis-player-431981167.jpg") no-repeat center center;
+}
+#first-serve {
+    height: 600px;
+    width: 40%;
+    background: url("https://image.shutterstock.com/image-photo/female-tennis-player-serving-ball-600w-1432697279.jpg") no-repeat center top;
+}
+.row-table {
+    display: table;
+}
+.section-column {
+    display: table-cell;
+}
+form{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+.timeline-item {
+    padding-top: 4em 2em 0em 2em;
+    position: relative;
+    color: yellow;
+    border-left: 3px solid;
+}
+.timeline-item p {
+    padding-top: 2em;
+    padding-left: 1em;
+    margin: 0;
+    color: blue;
+}
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 2em;
+    display: block;
+    font-weight: 600;
+    color: blue;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: yellow;
 }
