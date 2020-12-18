@@ -35,7 +35,7 @@
     text-align: center;
 }
 #hero-image {
-    height: 900px;
+    height: 920px;
     width: 100%;
     background: url("https://image.shutterstock.com/z/stock-photo-young-woman-playing-tennis-294960158.jpg"
 ) no-repeat center center;
@@ -112,7 +112,7 @@ form{
     font-size: 12px;
 }
 .timeline-item {
-    padding-top: 4em 2em 0em 2em;
+    padding-top: 2em 2em 0em 2em;
     position: relative;
     color: yellow;
     border-left: 3px solid;
@@ -127,7 +127,7 @@ form{
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
-    top: 2em;
+    top: 2.4em;
     display: block;
     font-weight: 600;
     color: blue;
@@ -139,10 +139,24 @@ form{
     width: 12px;
     height: 12px;
     display: block;
-    top: 2.4em;
+    top: 2em;
     position: absolute;
     left: -6px;
     border-radius: 12px;
     content: '';
     background: yellow;
+}
+.typical-nos {
+    font-size: 20px;
+    color: blue;
+}
+.spacer {
+    height: 45px;
+    width: 100%;
+}
+/*-------Bar Chart------*/
+.bar-style {
+    border: 3px; 
+     border-color: #FF0000; 
+     background-color: blue;
 }
