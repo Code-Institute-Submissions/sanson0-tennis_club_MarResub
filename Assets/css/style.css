@@ -40,6 +40,16 @@
     background: url("https://image.shutterstock.com/z/stock-photo-young-woman-playing-tennis-294960158.jpg"
 ) no-repeat center center;
 }
+#hero-junior {
+    height: 920;
+    width: 100%;
+    background: url("https://image.shutterstock.com/z/stock-photo-junior-boy-caucasian-playing-tennis-chasing-ball-with-fun-expression-1055130590.jpg") no-repeat center center;
+}
+#junior-serve {
+    height: 900;
+    width: 100%;
+    background: url("https://image.shutterstock.com/z/stock-photo-new-york-august-kids-play-mini-tennis-during-arthur-ashe-kids-day-at-billie-jean-1114826405.jpg") no-repeat center center;
+}
 #question-image {
     height: 100px;
     width: 40%;
@@ -151,7 +161,7 @@ form{
     color: blue;
 }
 .spacer {
-    height: 45px;
+    height: 35px;
     width: 100%;
 }
 /*-------Bar Chart------*/
@@ -159,4 +169,5 @@ form{
     border: 3px; 
      border-color: #FF0000; 
      background-color: blue;
+     align-items: center;
 }
