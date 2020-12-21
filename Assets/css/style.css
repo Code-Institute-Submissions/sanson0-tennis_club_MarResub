@@ -35,7 +35,7 @@
     text-align: center;
 }
 #hero-image {
-    height: 920px;
+    height: 900px;
     width: 100%;
     background: url("https://image.shutterstock.com/z/stock-photo-young-woman-playing-tennis-294960158.jpg"
 ) no-repeat center center;
@@ -170,4 +170,8 @@ form{
      border-color: #FF0000; 
      background-color: blue;
      align-items: center;
+/*---responsive design---*/
+}
+#space-ft {
+    height: 50px;
 }

@@ -58,3 +58,22 @@ Design elements to be used are:-
 Boiler plate to begin the code.
 Header, section and footer elements in the body.
 Bootstrap items such as buttons, forms, barchart, timeline, grid
+
+Credits:
+
+The Albert Lawn Tennis Club for its three ethos statements
+
+the webthought.blogspots.com for its bar chart code. This did not work properly for this website 
+and was modified quite a lot, but provided a good starting point.
+
+w3schools.com was very useful for quick look-ups of code that had been covered by Code Institute's
+course.
+
+Improvements to code and website layout
+
+The code and website was improved by grouping together each ethos statement with its associated
+paragraph. This was previously a problem when adapting the website for responsive design.
+
+The layout was improved by completely moving the ethos statements and paragraphs at smaller
+screen sizes so that they sat underneath the hero-image. if this was not done, the website 
+looked messy.
