@@ -15,16 +15,16 @@
         <div class="row no-gutters">
             <div class="col">
                 <ul id="nav" class="list-inline menucontainer">
-                    <li class="col-3 menu-color-home list-inline-item">
+                    <li class="col-md-3 col-sm-6 menu-color-home list-inline-item">
                         <a href="index.html"><span>Home</span></a>
                     </li>
-                    <li class="col-3 menu-color-events list-inline-item">
+                    <li class="col-md-3 col-sm-6 menu-color-events list-inline-item">
                         <a href="events.html"><span>Events</span></a>
                     </li>
-                     <li class="col-3 menu-color-juniors list-inline-item">
+                     <li class="col-md-3 col-sm-6 menu-color-juniors list-inline-item">
                         <a href="juniors.html"><span>Juniors</span></a>
                     </li>
-                     <li class="col-3 menu-color-gallery list-inline-item">
+                     <li class="col-md-3 col-sm-6 menu-color-gallery list-inline-item">
                         <a href="gallery.html"><span>Gallery</span></a>
                     </li>
                 </ul>
@@ -35,7 +35,12 @@
 
     <section>
        <div class="row" id="many-players">
-           <div class="col-8">
+           <div class="col-md-8">
+               <h6>Next social events 
+                   <a href="Assets/social-events.pdf" target="_blank">
+                        <i class="fa fa-download"></i>
+                    </a>
+                </h6>
                 <div class="timeline-item" data-dates="Monday 6:30pm">
                     <p>Social Mix-in</p>
                 </div>
@@ -53,19 +58,19 @@
                 </div>
                 <div class="spacer"></div>
                 <h4 class="typical-nos">Typical player numbers</h4>
-                <table width="100%" border="1" cellpadding="0" cellspacing="0">
-  <tr>
-    <td height="30" valign="bottom"><div align="center">25</div></td>
-    <td width="0" rowspan="10" valign="bottom"><div align="center">
-        <table width="100%" border="0" cellpadding="0" cellspacing="0">
-          <tr>
+                <table class="col-4" width="100%" border="1" cellpadding="0" cellspacing="0">
+        <tr>
+            <td height="30" valign="bottom"><div align="center">25</div></td>
+            <td width="0" rowspan="10" valign="bottom"><div align="center">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
             <td width="50%" valign="bottom"><table class="bar-style" width="20" height="80">
                 <tr>
                   <td></td>
                 </tr>
               </table></td>
           </tr>
-          <td><div align="center">Mon</div></td>
+          <td><div align="center" class="weekday"><u> Mon </u></div></td>
         </table>
       </div></td>
     <td rowspan="10" valign="bottom"><div align="center">
@@ -77,7 +82,7 @@
                 </tr>
               </table></td>
           </tr>
-          <td><div align="center">Tue</div></td>
+          <td><div align="center" class="weekday"><u> Tue </u></div></td>
         </table>
       </div></td>
     <td rowspan="10" valign="bottom"><div align="center">
@@ -89,7 +94,7 @@
                 </tr>
               </table></td>
           </tr>
-          <td><div align="center">Wed</div></td>
+          <td><div align="center" class="weekday"><u> Wed </u></div></td>
         </table>
       </div></td>
     <td rowspan="10" valign="bottom"><div align="center">
@@ -101,7 +106,7 @@
                 </tr>
               </table></td>
           </tr>
-          <td><div align="center">Thu</div></td>
+          <td><div align="center" class="weekday"><u> Thu </u></div></td>
         </table>
       </div></td>
     <td rowspan="10" valign="bottom"><div align="center">
@@ -113,29 +118,29 @@
                 </tr>
               </table></td>
           </tr>
-          <td><div align="center">Fri</div></td>
+          <td><div align="center" class="weekday"><u> Fri </u></div></td>
         </table>
       </div></td>
-  </tr>
-  <tr>
-    <td height="10" valign="bottom"><div align="center">20</div></td>
-  </tr>
-  <tr>
-    <td height="10" valign="bottom"><div align="center">15</div></td>
-  </tr>
-  <tr>
-    <td height="10" valign="bottom"><div align="center">10</div></td>
-  </tr>
-  <tr>
-    <td height="10" valign="bottom"><div align="center">5</div></td>
-  </tr>
-  <tr>
-    <td height="10" valign="bottom"><div align="center">0</div></td>
-  </tr>
-     <td height="30" valign="bottom"><div align="center">&nbsp;</div></td>
-</table>
+        </tr>
+        <tr>
+            <td height="10" valign="bottom"><div align="center">20</div></td>
+             </tr>
+                <tr>
+                <td height="10" valign="bottom"><div align="center">15</div></td>
+            </tr>
+             <tr>
+            <td height="10" valign="bottom"><div align="center">10</div></td>
+            </tr>
+            <tr>
+            <td height="10" valign="bottom"><div align="center">5</div></td>
+            </tr>
+            <tr>
+            <td height="10" valign="bottom"><div align="center">0</div></td>
+        </tr>
+     <td height="25" valign="bottom"><div align="center">&nbsp;</div></td>
+        </table>
            </div>
-           <div class="col-4" id="first-serve">
+           <div class="col-md-4 d-md-block d-sm-none d-none" id="first-serve">
                 <form>
                     <label for="firstname">First Name</label>
                     <input id="firstname" type="text">
@@ -147,6 +152,18 @@
                 </form>
            </div>
        </div>
+       <div id="space2"></div>
+       <div class="d-md-none d-sm-block d-block" id="first-serve">
+            <form>
+                <label for="firstname">First Name</label>
+                <input id="firstname" type="text">
+                <label for="lastname">Last Name</label>
+                <input id="lastname" type="text">
+                <label for="email">Email Address</label>
+                <input id="email" type="email">
+                <input type="submit">
+            </form>
+        </div>
     </section>
 
     <footer>
@@ -154,16 +171,16 @@
             <div class="col">
                 <div>
                     <ul id="nav-foot" class="list-inline menucontainer">
-                        <li class="col-3 list-inline-item">
+                        <li class="col-md-3 col-sm-6 list-inline-item">
                             <a href="#">Coaching</a>
                         </li>
-                        <li class="col-3 list-inline-item">
+                        <li class="col-md-3 col-sm-6 list-inline-item">
                             <a href="#">Membership</a>
                         </li>
-                        <li class="col-3 list-inline-item">
+                        <li class="col-md-3 col-sm-6 list-inline-item">
                             <a href="#">Hire Venue</a>
                         </li>
-                        <li class="col-3 list-inline-item">
+                        <li class="col-md-3 col-sm-6 list-inline-item">
                             <a href="https://www.bbc.co.uk/weather/2633691">Weather</a>
                         </li>
                     </ul>
@@ -174,16 +191,16 @@
             <div class="col">
                 <div>
                     <ul id="nav-foot" class="list-inline menucontainer">
-                        <li class="col-3 list-inline-item">
+                        <li class="col-md-3 col-sm-6 list-inline-item">
                             <a href="https://en-gb.facebook.com"><i class="fab fa-facebook-f"></i></a>
                         </li>
-                        <li class="col-3 list-inline-item">
+                        <li class="col-md-3 col-sm-6 list-inline-item">
                             <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
                         </li>
-                        <li class="col-3 list-inline-item">
+                        <li class="col-md-3 col-sm-6 list-inline-item">
                             <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                         </li>
-                        <li class="col-3 list-inline-item">
+                        <li class="col-md-3 col-sm-6 list-inline-item">
                             <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                         </li>
                     </ul>

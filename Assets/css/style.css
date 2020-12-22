@@ -41,20 +41,16 @@
 ) no-repeat center center;
 }
 #hero-junior {
-    height: 920;
+    height: 920px;
     width: 100%;
     background: url("https://image.shutterstock.com/z/stock-photo-junior-boy-caucasian-playing-tennis-chasing-ball-with-fun-expression-1055130590.jpg") no-repeat center center;
 }
 #junior-serve {
-    height: 900;
+    height: 900px;
     width: 100%;
     background: url("https://image.shutterstock.com/z/stock-photo-new-york-august-kids-play-mini-tennis-during-arthur-ashe-kids-day-at-billie-jean-1114826405.jpg") no-repeat center center;
 }
-#question-image {
-    height: 100px;
-    width: 40%;
-    background: url("https://image.shutterstock.com/image-vector/tennis-racquet-flat-icon-on-600w-497850328.jpg") no-repeat center center;
-}
+
 .question1 {
     font-size: larger;
     font-weight: 700;
@@ -107,8 +103,8 @@ p {
     background: url("https://image.shutterstock.com/z/stock-photo-tennis-player-431981167.jpg") no-repeat center center;
 }
 #first-serve {
-    height: 600px;
-    width: 40%;
+    height: 550px;
+    width: 100%;
     background: url("https://image.shutterstock.com/image-photo/female-tennis-player-serving-ball-600w-1432697279.jpg") no-repeat center top;
 }
 .row-table {
@@ -161,7 +157,7 @@ form{
     color: blue;
 }
 .spacer {
-    height: 35px;
+    height: 10px;
     width: 100%;
 }
 /*-------Bar Chart------*/
@@ -174,4 +170,14 @@ form{
 }
 #space-ft {
     height: 50px;
+}
+#space2 {
+    height: 50px;
+}
+#space3 {
+    height: 50px;
+} 
+.weekday {
+    text-underline-position: under;
+    margin: 0;
 }
