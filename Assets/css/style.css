@@ -40,6 +40,11 @@
     background: url("https://image.shutterstock.com/z/stock-photo-young-woman-playing-tennis-294960158.jpg"
 ) no-repeat center center;
 }
+#question-image {
+    height: 300px;
+    width: 40%;
+    background: url("https://i.imgur.com/mTcwqyU.jpg") no-repeat center center;
+}
 #hero-junior {
     height: 920px;
     width: 100%;
@@ -54,6 +59,7 @@
 .question1 {
     font-size: larger;
     font-weight: 700;
+    color: #fffc36;
 }
 .t-ball {
     height: 140px;
@@ -86,7 +92,7 @@
     text-align: center;
 }
 #main-space {
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 p {
@@ -161,13 +167,81 @@ form{
     width: 100%;
 }
 /*-------Bar Chart------*/
-.bar-style {
-    border: 3px; 
-     border-color: #FF0000; 
-     background-color: blue;
-     align-items: center;
-/*---responsive design---*/
+.chart {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(100, 1fr);
+  grid-column-gap: 5px;
 }
+* { box-sizing: border-box; }
+
+.chart {
+  height: 30vh;
+  width: 40vw;
+  
+}
+[class*="bar"] {
+  grid-row-start: 1;
+  grid-row-end: 101;
+  border-radius: 5px 5px 0 0;
+  background-color: #fffc36;
+}
+[class*="bar"] {
+  grid-row-end: 101;
+}
+
+.bar-1 {
+  grid-row-start: 50;
+  text-align: center;
+  position: relative;
+}
+.bar-1 span {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+.bar-2 {
+  grid-row-start: 25;
+  text-align: center;
+  position: relative;
+}
+.bar-2 span {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+.bar-3 {
+  grid-row-start: 12;
+  text-align: center;
+  position: relative;
+}
+.bar-3 span {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+.bar-4 {
+  grid-row-start: 25;
+  text-align: center;
+  position: relative;
+}
+.bar-4 span {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+.bar-5 {
+  grid-row-start: 0;
+  text-align: center;
+  position: relative;
+}
+.bar-5 span {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+/*---responsive design---*/
+
 #space-ft {
     height: 50px;
 }
