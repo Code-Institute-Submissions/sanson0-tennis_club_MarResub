@@ -14,6 +14,11 @@
 .menu-color-gallery {
     background-color: turquoise;
 }
+.social-events {
+    color: #fffc36;
+    text-shadow: 1px 2px 2px black;
+    font-size: 20px;
+}
 .list-inline-item:not(:last-child) {
     margin: 0px;
 }
@@ -39,27 +44,31 @@
     width: 100%;
     background: url("https://image.shutterstock.com/z/stock-photo-young-woman-playing-tennis-294960158.jpg"
 ) no-repeat center center;
+    background-size: cover;
 }
 #question-image {
     height: 300px;
     width: 40%;
     background: url("https://i.imgur.com/mTcwqyU.jpg") no-repeat center center;
+    
+    background-size: cover;
 }
 #hero-junior {
     height: 920px;
     width: 100%;
     background: url("https://image.shutterstock.com/z/stock-photo-junior-boy-caucasian-playing-tennis-chasing-ball-with-fun-expression-1055130590.jpg") no-repeat center center;
+    background-size: cover;
 }
-#junior-serve {
-    height: 900px;
+#junior-signup {
+    height: 920px;
     width: 100%;
-    background: url("https://image.shutterstock.com/z/stock-photo-new-york-august-kids-play-mini-tennis-during-arthur-ashe-kids-day-at-billie-jean-1114826405.jpg") no-repeat center center;
+    background: rgba(255, 252, 54, 0.8)
 }
-
 .question1 {
-    font-size: larger;
+    font-size: 50px;
     font-weight: 700;
     color: #fffc36;
+    text-shadow: 1px 2px 2px black;
 }
 .t-ball {
     height: 140px;
@@ -77,14 +86,16 @@
     height: 140px;
     width: 140px;
     border-radius: 50%;
-    background: url("https://image.shutterstock.com/image-photo/tennis-ball-isolated-on-white-600w-659857153.jpg"
+    background: url("https://i.imgur.com/OZCYSm5.jpg"
 ) no-repeat center center;
+    background-size: cover;
     padding-top: 25px;
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
     font-size: 18px;
     margin-left: 80px;
+    font-weight: 700;
 }
 #ethos-three li{
     font-size: 14px;
@@ -97,6 +108,8 @@
 }
 p {
     font-size: 20px;
+    color: #fffc36;
+    text-shadow: 1px 2px 2px black;
 }
 
 .text-ball p {
@@ -107,11 +120,12 @@ p {
     height: 600px;
     width: 100%;
     background: url("https://image.shutterstock.com/z/stock-photo-tennis-player-431981167.jpg") no-repeat center center;
+    background-size: cover;
 }
-#first-serve {
-    height: 550px;
+#event-signup {
+    height: 600px;
     width: 100%;
-    background: url("https://image.shutterstock.com/image-photo/female-tennis-player-serving-ball-600w-1432697279.jpg") no-repeat center top;
+    background: rgba(255, 252, 54, 0.8)
 }
 .row-table {
     display: table;
@@ -126,7 +140,7 @@ form{
 .timeline-item {
     padding-top: 2em 2em 0em 2em;
     position: relative;
-    color: yellow;
+    color: #fffc36;
     border-left: 3px solid;
 }
 .timeline-item p {
@@ -158,15 +172,17 @@ form{
     content: '';
     background: yellow;
 }
-.typical-nos {
-    font-size: 20px;
-    color: blue;
-}
+
 .spacer {
     height: 10px;
     width: 100%;
 }
 /*-------Bar Chart------*/
+.typical-nos {
+    font-size: 20px;
+    color: #fffc36;
+    text-shadow: 1px 2px 2px black;
+}
 .chart {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -194,56 +210,76 @@ form{
   grid-row-start: 50;
   text-align: center;
   position: relative;
+  font-weight: 700;
+  font-size: 20px;
 }
 .bar-1 span {
   position: absolute;
   bottom: 0;
   left: 10px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .bar-2 {
   grid-row-start: 25;
   text-align: center;
   position: relative;
+  font-weight: 700;
+  font-size: 20px;
 }
 .bar-2 span {
   position: absolute;
   bottom: 0;
   left: 10px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .bar-3 {
   grid-row-start: 12;
   text-align: center;
   position: relative;
+  font-weight: 700;
+  font-size: 20px;
 }
 .bar-3 span {
   position: absolute;
   bottom: 0;
   left: 10px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .bar-4 {
   grid-row-start: 25;
   text-align: center;
   position: relative;
+  font-weight: 700;
+  font-size: 20px;
 }
 .bar-4 span {
   position: absolute;
   bottom: 0;
   left: 10px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .bar-5 {
   grid-row-start: 0;
   text-align: center;
   position: relative;
+  font-weight: 700;
+  font-size: 20px;
 }
 .bar-5 span {
   position: absolute;
   bottom: 0;
   left: 10px;
+  font-weight: 700;
+  font-size: 20px;
 }
 /*---responsive design---*/
 
 #space-ft {
-    height: 50px;
+    height: 45px;
 }
 #space2 {
     height: 50px;
@@ -254,4 +290,73 @@ form{
 .weekday {
     text-underline-position: under;
     margin: 0;
+}
+@media only screen and (max-width: 550px) {
+  #question-image {
+    display:none;
+  }
+}
+@media only screen and (min-width: 550px) {
+  #question {
+    display:none;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .chart {
+    display:none;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .typical-nos {
+    display:none;
+  }
+}
+/*---gallery pictures---*/
+#clubhouse-1 {
+    height: 600px;
+    width: 100%;
+    background: url("https://i.imgur.com/JFHrXXw.jpg") no-repeat center center;
+    background-size: cover;
+}
+#clubhouse-2 {
+    height: 600px;
+    width: 100%;
+    background: url("https://i.imgur.com/JFHrXXw.jpg") no-repeat center center;
+    background-size: cover;
+}
+#courts-1 {
+    height: 600px;
+    width: 100%;
+    background: url("https://i.imgur.com/G2FyxL4.jpg") no-repeat center center;
+    background-size: cover;
+}
+#courts-2 {
+    height: 600px;
+    width: 100%;
+    background: url("https://i.imgur.com/mJMdQZ7.jpg") no-repeat center center;
+    background-size: cover;
+}
+#courts-3 {
+    height: 600px;
+    width: 100%;
+    background: url("https://i.imgur.com/mJMdQZ7.jpg") no-repeat center center;
+    background-size: cover;
+}
+#courts-4 {
+    height: 600px;
+    width: 100%;
+    background: url("https://i.imgur.com/mJMdQZ7.jpg") no-repeat center center;
+    background-size: cover;
+}
+#courts-5 {
+    height: 600px;
+    width: 100%;
+    background: url("https://i.imgur.com/mJMdQZ7.jpg") no-repeat center center;
+    background-size: cover;
+}
+#social.clubhouse-1 {
+    height: 600px;
+    width: 100%;
+    background: url("https://i.imgur.com/JFHrXXw.jpg") no-repeat center center;
+    background-size: cover;
 }
