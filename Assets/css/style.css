@@ -14,9 +14,11 @@
 .menu-color-gallery {
     background-color: turquoise;
 }
+.menu-color-events-page {
+    background-color: orange;
+}
 .social-events {
-    color: #fffc36;
-    text-shadow: 1px 2px 2px black;
+    color: white;
     font-size: 20px;
 }
 .list-inline-item:not(:last-child) {
@@ -109,7 +111,7 @@
     height: 140px;
     width: 140px;
     border-radius: 50%;
-    background: url("https://i.imgur.com/OZCYSm5.jpg"
+    background: url("https://cdn.pixabay.com/photo/2014/04/02/17/04/tennis-ball-307846_960_720.png"
 ) no-repeat center center;
     background-size: cover;
     padding-top: 25px;
@@ -142,21 +144,25 @@ p {
 #many-players {
     height: 600px;
     width: 100%;
-    background: url("https://image.shutterstock.com/z/stock-photo-tennis-player-431981167.jpg") no-repeat center center;
+    background: url("https://cdn.pixabay.com/photo/2020/11/27/18/59/tennis-5782695_1280.jpg") no-repeat center center;
     background-size: cover;
 }
+.shade {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    width: 100;
+}
 #many-players div div p {
-    color: black;
+    color: white;
 }
 #event-signup {
-    margin-top: 25px;
-    height: 550px;
+    height: 600px;
     width: 100%;
-    border-radius: 15px;
     background: rgba(255, 252, 54, 0.8);
     padding-top: 15px;
     border: 1px solid black;
     border-radius: 5px;
+    float: right;
 }
 #event-signup p {
     color: black;
@@ -178,14 +184,13 @@ form{
     padding-top: 2em 2em 0em 2em;
     position: relative;
     color: #fffc36;
-    text-shadow: 1px 2px 2px black;
     border-left: 3px solid;
 }
 .timeline-item p {
     padding-top: 2em;
     padding-left: 1em;
     margin: 0;
-    color: #fffc36;
+    color: white;
 }
 
 .timeline-item:before {
@@ -195,7 +200,7 @@ form{
     top: 2.4em;
     display: block;
     font-weight: 600;
-    color: #fffc36;
+    color: white;
     font-size: 0.8em;
     padding: 0;
     margin: 0;
@@ -219,7 +224,7 @@ form{
 /*-------Bar Chart------*/
 .typical-nos {
     font-size: 20px;
-    color: #fffc36;
+    color: white;
     text-shadow: 1px 2px 2px black;
 }
 .chart {

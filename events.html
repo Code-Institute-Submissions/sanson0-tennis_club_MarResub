@@ -10,21 +10,21 @@
     <title>FAB Tennis</title>
 </head>
 <body>
-    <header>
+    <header class="container-fluid">
         <h1 class="title-style">FAB Lawn Tennis Club</h1>
         <div class="row no-gutters">
             <div class="col">
                 <ul id="nav" class="list-inline menucontainer">
-                    <li class="col-md-3 col-sm-6 menu-color-home list-inline-item">
+                    <li class="col-md-3 col-sm-6 list-inline-item">
                         <a href="index.html"><span>Home</span></a>
                     </li>
-                    <li class="col-md-3 col-sm-6 menu-color-events list-inline-item">
+                    <li class="col-md-3 col-sm-6 menu-color-events-page list-inline-item">
                         <a href="events.html"><span>Events</span></a>
                     </li>
-                     <li class="col-md-3 col-sm-6 menu-color-juniors list-inline-item">
+                     <li class="col-md-3 col-sm-6 list-inline-item">
                         <a href="juniors.html"><span>Juniors</span></a>
                     </li>
-                     <li class="col-md-3 col-sm-6 menu-color-gallery list-inline-item">
+                     <li class="col-md-3 col-sm-6 list-inline-item">
                         <a href="gallery.html"><span>Gallery</span></a>
                     </li>
                 </ul>
@@ -32,68 +32,70 @@
         </div>
     </header>
 
-    <section>
+    <section class="container-fluid"> 
        <div class="row" id="many-players">
-           <div class="col-8">
-               <h6 class="social-events">Next social events 
-                   <a href="Assets/social-events.pdf" target="_blank">
-                        <i class="fa fa-download social-events"></i>
-                    </a>
-                </h6>
-                <div class="timeline-item" data-dates="Monday 6:30pm">
-                    <p>Social Mix-in</p>
-                </div>
-                <div class="timeline-item" data-dates="Tuesday 6:30pm">
-                    <p>Ladies' Team Practice</p>
-                </div>
-                <div class="timeline-item" data-dates="Wednesday 7pm">
-                    <p>Social Mix-in</p>
-                </div>
-                <div class="timeline-item" data-dates="Thursday 7pm">
-                    <p>New Members Night</p>
-                </div>
-                <div class="timeline-item" data-dates="Friday 6pm">
-                    <p>Men's Team Practice</p>
-                </div>
-                <div class="spacer"></div>
-                <h4 class="typical-nos">Typical player numbers</h4>
-                 <div class="chart">
-                    <div class="bar-1">20
-                         <span>Mon</span>
+           <div class="shade col">
+                <div class="col-md-4 d-md-block d-sm-none d-none" id="event-signup">
+                    <form>
+                        <label for="firstname">First Name</label>
+                        <input id="firstname" type="text">
+                        <label for="lastname">Last Name</label>
+                        <input id="lastname" type="text">
+                        <label for="email">Email Address</label>
+                        <input id="email" type="email">
+                        <input type="submit">
+                    </form>
+                    <ul>
+                        <li>Associate Membership for one year, £150</li>
+                        <li>Full Membership for one year, £250.</li>
+                    </ul>
+                    <p>First month FREE!</p>
+                </div> 
+                <div class="col-8 d-md-block d-sm-none d-none">
+                    <h6 class="social-events">Next social events 
+                        <a href="Assets/social-events.pdf" target="_blank">
+                            <i class="fa fa-download social-events"></i>
+                        </a>
+                    </h6>
+                    <div class="timeline-item" data-dates="Monday 6:30pm">
+                            <p>Social Mix-in</p>
                     </div>
-                    <div class="bar-2">30
-                        <span>Tue</span>
+                    <div class="timeline-item" data-dates="Tuesday 6:30pm">
+                            <p>Ladies' Team Practice</p>
                     </div>
-                    <div class="bar-3">35
-                        <span>Wed</span>
+                    <div class="timeline-item" data-dates="Wednesday 7pm">
+                            <p>Social Mix-in</p>
                     </div>
-                    <div class="bar-4">30
-                        <span>Thu</span>
+                    <div class="timeline-item" data-dates="Thursday 7pm">
+                            <p>New Members Night</p>
                     </div>
-                    <div class="bar-5">40
-                        <span>Fri</span>
+                    <div class="timeline-item" data-dates="Friday 6pm">
+                            <p>Men's Team Practice</p>
                     </div>
-                </div>
-            </div>
-             <div class="col-md-4 d-md-block d-sm-none d-none" id="event-signup">
-                <form>
-                    <label for="firstname">First Name</label>
-                    <input id="firstname" type="text">
-                    <label for="lastname">Last Name</label>
-                    <input id="lastname" type="text">
-                    <label for="email">Email Address</label>
-                    <input id="email" type="email">
-                    <input type="submit">
-                </form>
-                <ul>
-                    <li>Associate Membership for one year, £150</li>
-                    <li>Full Membership for one year, £250.</li>
-                </ul>
-                <p>First month FREE!</p>
-            </div> 
-       </div>
-       <div class="d-md-none d-sm-block d-block" id="event-signup">
-           <form>
+                    <div class="spacer"></div>
+                    <h4 class="typical-nos">Typical player numbers</h4>
+                    <div class="chart">
+                            <div class="bar-1">20
+                                <span>Mon</span>
+                            </div>
+                            <div class="bar-2">30
+                                <span>Tue</span>
+                            </div>
+                            <div class="bar-3">35
+                                <span>Wed</span>
+                            </div>
+                            <div class="bar-4">30
+                                <span>Thu</span>
+                            </div>
+                            <div class="bar-5">40
+                                <span>Fri</span>
+                            </div>
+                        </div>
+                    </div>    
+           </div>
+       </div>       
+        <div class="d-md-none d-sm-block d-block" id="event-signup">
+            <form>
                 <label for="firstname">First Name</label>
                 <input id="firstname" type="text">
                 <label for="lastname">Last Name</label>
@@ -101,16 +103,16 @@
                 <label for="email">Email Address</label>
                 <input id="email" type="email">
                 <input type="submit">
-           </form>
+            </form>
             <ul>
                 <li>Associate Membership for one year, £150</li>
                 <li>Full Membership for one year, £250.</li>
             </ul>
             <p>First month FREE!</p>
-       </div>
+        </div>
     </section>
 
-    <footer>
+    <footer class="container-fluid">
         <div class="row no gutters">
             <div class="col">
                 <div>
