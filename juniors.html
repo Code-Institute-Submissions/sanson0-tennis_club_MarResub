@@ -21,7 +21,7 @@
                     <li class="col-md-3 col-sm-6 menu-color-events list-inline-item">
                         <a href="events.html"><span>Events</span></a>
                     </li>
-                     <li class="col-md-3 col-sm-6 menu-color-juniors list-inline-item">
+                     <li class="col-md-3 col-sm-6 menu-color-juniors-page list-inline-item">
                         <a href="juniors.html"><span>Juniors</span></a>
                     </li>
                      <li class="col-md-3 col-sm-6 menu-color-gallery list-inline-item">
@@ -33,9 +33,41 @@
 
     </header>
 
-        <section>
+    <section class="container-fluid">
        <div class="row" id="hero-junior">
-           <div class="col-8">
+           <div class="junior-shade col">
+               <div class="col-4" id="junior-signup">
+                    <div id="child-signup">
+                        <form>
+                            <label for="firstname">First Name</label>
+                            <input id="firstname" type="text">
+                            <label for="lastname">Last Name</label>
+                            <input id="lastname" type="text">
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email">
+                            <input type="submit">
+                        </form>
+                    </div>
+                    <div id="adult-signup">
+                        <form>
+                            <label for="firstname">First Name</label>
+                            <input id="firstname" type="text">
+                            <label for="lastname">Last Name</label>
+                            <input id="lastname" type="text">
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email">
+                            <input type="submit">
+                        </form>
+                        <ul>
+                            <li>Membership for one year, ages 5-8 years £50.</li>
+                            <li>Membership for one year, ages 8-11 years £75.</li>
+                            <li>Membership for one year, ages 11-14 years £100.</li>
+                            <li>Membership for one year, ages 14-18 years £125.</li>
+                        </ul>
+                        <p>First month FREE!</p>
+                    </div>
+                </div>
+           <div class="col-md-8">
                <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     Tournaments
@@ -61,42 +93,12 @@
                 <div class="timeline-item" data-dates="Friday 6pm">
                     <p>Youth squad and coaching</p>
                 </div>
-           
-           </div>
-           <div class="col-md-4 d-md-block d-sm-none d-none" id="junior-signup">
-               <div id="child-signup">
-                    <form>
-                        <label for="firstname">First Name</label>
-                        <input id="firstname" type="text">
-                        <label for="lastname">Last Name</label>
-                        <input id="lastname" type="text">
-                        <label for="email">Email Address</label>
-                        <input id="email" type="email">
-                        <input type="submit">
-                    </form>
-                </div>
-                <div id="adult-signup">
-                     <form>
-                        <label for="firstname">First Name</label>
-                        <input id="firstname" type="text">
-                        <label for="lastname">Last Name</label>
-                        <input id="lastname" type="text">
-                        <label for="email">Email Address</label>
-                        <input id="email" type="email">
-                        <input type="submit">
-                    </form>
-                     <ul>
-                        <li>Membership for one year, ages 5-8 years £50.</li>
-                        <li>Membership for one year, ages 8-11 years £75.</li>
-                        <li>Membership for one year, ages 11-14 years £100.</li>
-                        <li>Membership for one year, ages 14-18 years £125.</li>
-                    </ul>
-                    <p>First month FREE!</p>
-                </div>
            </div>
        </div>
        <div id="space3"></div>
-       <div class="d-md-none d-sm-block d-block" id="junior-signup">
+        
+       </div>
+       <div id="junior-signup-small">
            <div id="child-signup">
                     <form>
                         <label for="firstname">First Name</label>
@@ -126,7 +128,7 @@
                     </ul>
                     <p>First month FREE!</p>
                 </div>
-        </div>
+            </div>
     </section>
 
     <footer class="container-fluid">
@@ -154,16 +156,16 @@
             <div class="col">
                 <div>
                     <ul id="nav-foot" class="list-inline menucontainer">
-                        <li class="col-md-3 col-sm-6 list-inline-item">
+                        <li class="col-3 list-inline-item">
                             <a href="https://en-gb.facebook.com"><i class="fab fa-facebook-f"></i></a>
                         </li>
-                        <li class="col-md-3 col-sm-6 list-inline-item">
+                        <li class="col-3 list-inline-item">
                             <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
                         </li>
-                        <li class="col-md-3 col-sm-6 list-inline-item">
+                        <li class="col-3 list-inline-item">
                             <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                         </li>
-                        <li class="col-md-3 col-sm-6 list-inline-item">
+                        <li class="col-3 list-inline-item">
                             <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                         </li>
                     </ul>
