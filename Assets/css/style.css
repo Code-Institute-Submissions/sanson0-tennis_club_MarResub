@@ -62,23 +62,33 @@
 ) no-repeat center center;
     background-size: cover;
 }
+#question-box {
+    height: 350px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
 #question-image {
     height: 300px;
-    width: 40%;
+    width: 100%;
     background: url("https://cdn.pixabay.com/photo/2015/11/03/09/10/question-mark-1020165_960_720.jpg") no-repeat center center;
     background-size: cover;
-    
+}
+.question1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    background-color: white;
 }
 #hero-junior {
     height: 920px;
     width: 100%;
-    background: url("https://cdn.pixabay.com/photo/2017/02/25/00/18/tennis-2096676__340.jpg") no-repeat center center;
+    background: url("https://cdn.pixabay.com/photo/2018/07/22/08/47/tennis-3554013__340.jpg") no-repeat center center;
     background-size: cover;
 }
 #junior-signup {
     height: 920px;
     width: 100%;
-    background: rgba(255, 252, 54, 0.8);
+    background: rgba(206, 220, 22, 0.8);
     border: 1px solid black;
     float: right;
     margin-right: 0px;
@@ -86,7 +96,7 @@
 #junior-signup-small {
     height: 920px;
     width: 100%;
-    background: rgba(255, 252, 54, 0.8);
+    background: rgba(206, 220, 22, 0.8);
     border: 1px solid black;
 }
 #child-signup {
@@ -104,11 +114,7 @@
     text-align: center;
     color: black;
 }
-.question1 {
-    font-size: 50px;
-    font-weight: 700;
-    color: black;
-}
+
 .t-ball {
     height: 140px;
     width: 140px;
@@ -142,7 +148,7 @@
     text-align: center;
 }
 #main-space {
-    height: 300px;
+    height: 200px;
     width: 100%;
 }
 p {
@@ -153,7 +159,14 @@ p {
 .text-ball p {
     padding-top: 0px;
     padding-left: 20px;
-    background-color: rgb(206, 235, 22);
+    background-color: rgb(206, 220, 22);
+    border-radius: 15px;
+    margin: 10px 5px 20px 5px;
+}
+.text-ball-small p {
+    padding-top: 0px;
+    padding-left: 20px;
+    background-color: white;
     border-radius: 15px;
     margin: 10px 5px 20px 5px;
 }
@@ -163,23 +176,26 @@ p {
     background: url("https://cdn.pixabay.com/photo/2020/11/27/18/59/tennis-5782695_1280.jpg") no-repeat center center;
     background-size: cover;
 }
+/*------------image-shade----*/
+.index-shade {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 900px;
+    width: 100;
+}
 .shade {
     background-color: rgba(0, 0, 0, 0.5);
     height: 600px;
     width: 100;
 }
 .junior-shade {
-    background-color: rgba(124, 77, 5, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 920px;
     width: 100;
-}
-#many-players div div p {
-    color: white;
 }
 #event-signup {
     height: 600px;
     width: 100%;
-    background: rgba(255, 252, 54, 0.8);
+    background: rgba(206, 220, 22, 0.8);
     padding-top: 15px;
     border: 1px solid black;
     border-radius: 5px;
@@ -188,14 +204,16 @@ p {
 #event-signup-small {
     height: 600px;
     width: 100%;
-    background: rgba(255, 252, 54, 0.8);
+    background: rgba(206, 220, 22, 0.8);
     padding-top: 15px;
     border: 1px solid black;
     border-radius: 5px;
 }
 #event-signup p {
     color: black;
-    text-shadow: 1px 2px 2px black;
+}
+#event-signup-small p {
+    color: black;
 }
 .row-table {
     display: table;
@@ -212,7 +230,7 @@ form{
 .timeline-item {
     padding-top: 2em 2em 0em 2em;
     position: relative;
-    color: #fffc36;
+    color: rgba(206, 220, 22, 0.8);
     border-left: 3px solid;
 }
 .timeline-item p {
@@ -243,7 +261,7 @@ form{
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #fffc36;
+    background: rgba(206, 220, 22, 0.8);
 }
 
 .spacer {
@@ -253,8 +271,8 @@ form{
 /*-------Bar Chart------*/
 .typical-nos {
     font-size: 20px;
-    color: white;
-    text-shadow: 1px 2px 2px black;
+    font-weight: 700;
+    color: rgba(206, 220, 22, 0.8);
 }
 .chart {
   display: grid;
@@ -273,7 +291,7 @@ form{
   grid-row-start: 1;
   grid-row-end: 101;
   border-radius: 5px 5px 5px 5px;
-  background-color: #fffc36;
+  background-color: rgba(206, 220, 22, 0.8);
 }
 [class*="bar"] {
   grid-row-end: 101;
@@ -283,86 +301,76 @@ form{
   grid-row-start: 50;
   text-align: center;
   position: relative;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
   border: 1px solid black;
 }
 .bar-1 span {
   position: absolute;
   bottom: 0;
   left: 10px;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
 }
 .bar-2 {
   grid-row-start: 25;
   text-align: center;
   position: relative;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
   border: 1px solid black;
 }
 .bar-2 span {
   position: absolute;
   bottom: 0;
   left: 10px;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
 }
 .bar-3 {
   grid-row-start: 12;
   text-align: center;
   position: relative;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
   border: 1px solid black;
 }
 .bar-3 span {
   position: absolute;
   bottom: 0;
   left: 10px;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
 }
 .bar-4 {
   grid-row-start: 25;
   text-align: center;
   position: relative;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
   border: 1px solid black;
 }
 .bar-4 span {
   position: absolute;
   bottom: 0;
   left: 10px;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
 }
 .bar-5 {
   grid-row-start: 0;
   text-align: center;
   position: relative;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
   border: 1px solid black;
 }
 .bar-5 span {
   position: absolute;
   bottom: 0;
   left: 10px;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
-  text-shadow: 1px 2px 2px black;
 }
 /*---responsive design---*/
 
@@ -396,6 +404,11 @@ form{
 }
 @media only screen and (max-width: 550px) {
   .typical-nos {
+    display:none;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #event-signup {
     display:none;
   }
 }
