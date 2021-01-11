@@ -1,5 +1,6 @@
 .title-style {
     text-align: center;
+    font-weight: 700;
 }
 /*------------colours*/
 .menu-color-home-page {
@@ -47,46 +48,54 @@
     color: black;
 }
 #nav-foot li {
-    font-size: 14px;
+    font-size: 18px;
     padding: 0;
     text-align: center;
+    padding-top: 30px;
+}
+#nav-foot-icon li a {
+    color: black;
+    font-size: 24px;
+}
+#nav-foot-icon li {
+    font-size: 18px;
+    padding: 0;
+    text-align: center;
+    padding-top: 20px;
 }
 #nav-foot li a {
     color: black;
-    font-size: 20px;
+    font-size: 24px;
 }
 #hero-image {
     height: 900px;
     width: 100%;
-    background: url("https://cdn.pixabay.com/photo/2018/01/23/07/31/pictogram-3100827_1280.jpg"
+    background: url("https://images.freeimages.com/images/large-previews/457/tennis-5-1565880.jpg"
 ) no-repeat center center;
     background-size: cover;
 }
 #question-box {
     height: 350px;
-    padding-left: 0px;
     padding-top: 0px;
+    float: right;
 }
-#question-image {
-    height: 300px;
-    width: 100%;
-    background: url("https://cdn.pixabay.com/photo/2015/11/03/09/10/question-mark-1020165_960_720.jpg") no-repeat center center;
-    background-size: cover;
-}
+
 .question1 {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
     color: black;
-    background-color: white;
+    background-color: rgba(206, 220, 22, 0.8);
+    text-transform: uppercase;
+    text-align: center;
 }
 #hero-junior {
-    height: 920px;
+    height: 600px;
     width: 100%;
-    background: url("https://cdn.pixabay.com/photo/2018/07/22/08/47/tennis-3554013__340.jpg") no-repeat center center;
+    background: url("https://cdn.pixabay.com/photo/2017/02/25/00/18/tennis-2096676__340.jpg") no-repeat center center;
     background-size: cover;
 }
 #junior-signup {
-    height: 920px;
+    height: 600px;
     width: 100%;
     background: rgba(206, 220, 22, 0.8);
     border: 1px solid black;
@@ -134,7 +143,7 @@
     background: url("https://cdn.pixabay.com/photo/2014/04/02/17/04/tennis-ball-307846_960_720.png"
 ) no-repeat center center;
     background-size: cover;
-    padding-top: 25px;
+    padding-top: 30px;
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
@@ -148,7 +157,7 @@
     text-align: center;
 }
 #main-space {
-    height: 200px;
+    height: 600px;
     width: 100%;
 }
 p {
@@ -159,9 +168,10 @@ p {
 .text-ball p {
     padding-top: 0px;
     padding-left: 20px;
-    background-color: rgb(206, 220, 22);
+    background-color: black;
     border-radius: 15px;
     margin: 10px 5px 20px 5px;
+    color: white;
 }
 .text-ball-small p {
     padding-top: 0px;
@@ -169,6 +179,10 @@ p {
     background-color: white;
     border-radius: 15px;
     margin: 10px 5px 20px 5px;
+}
+#invite {
+    background-color: rgba(206, 220, 22, 0.8);
+    text-align: center;
 }
 #many-players {
     height: 600px;
@@ -178,7 +192,7 @@ p {
 }
 /*------------image-shade----*/
 .index-shade {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     height: 900px;
     width: 100;
 }
@@ -189,7 +203,7 @@ p {
 }
 .junior-shade {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 920px;
+    height: 600px;
     width: 100;
 }
 #event-signup {
@@ -372,8 +386,17 @@ form{
   font-weight: 800;
   font-size: 20px;
 }
-/*---responsive design---*/
-
+/*---gallery pictures---*/
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+  border: 1px solid black;
+}
+#photo img {
+  width: 100%;
+}
 #space-ft {
     height: 45px;
 }
@@ -383,13 +406,11 @@ form{
 #space3 {
     height: 50px;
 } 
-.weekday {
-    text-underline-position: under;
-    margin: 0;
-}
+/*---responsive design---*/
+/*---responsive index page---*/
 @media only screen and (max-width: 550px) {
-  #question-image {
-    display:none;
+  .question1 {
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 550px) {
@@ -397,6 +418,7 @@ form{
     display:none;
   }
 }
+/*---responsive events page---*/
 @media only screen and (max-width: 550px) {
   .chart {
     display:none;
@@ -417,6 +439,53 @@ form{
     display:none;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .bar-1 span {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-weight: 800;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .bar-2 span {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-weight: 800;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .bar-3 span {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-weight: 800;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .bar-4 span {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-weight: 800;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .bar-5 span {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-weight: 800;
+    font-size: 12px;
+  }
+}
+/*---responsive junior page---*/
 @media only screen and (max-width: 550px) {
   #junior-signup {
     display:none;
@@ -427,64 +496,9 @@ form{
     display:none;
   }
 }
-/*---gallery pictures---*/
-#clubhouse-1 {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/JFHrXXw.jpg") no-repeat center center;
-    background-size: cover;
-}
-#courts-1 {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/cYH9Hqw.jpg") no-repeat center center;
-    background-size: cover;
-}
-#social {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/La5kCYX.jpg") no-repeat center center;
-    background-size: cover;
-}
-#courts-2 {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/pS7kxBa.jpg") no-repeat center center;
-    background-size: cover;
-}
-#clubhouse-2 {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/akqvntw.jpg") no-repeat center center;
-    background-size: cover;
-}
-#courts-3 {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/WitVfHA.jpg") no-repeat center center;
-    background-size: cover;
-}
-#courts-4 {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/mJMdQZ7.jpg") no-repeat center center;
-    background-size: cover;
-}
-#courts-5 {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/Slv5TdU.jpg") no-repeat center center;
-    background-size: cover;
-}
-#courts-6 {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/gZdSeP9.jpg") no-repeat center center;
-    background-size: cover;
-}
-#courts-7 {
-    height: 600px;
-    width: 100%;
-    background: url("https://i.imgur.com/Bhrbywu.jpg") no-repeat center center;
-    background-size: cover;
+/*---responsive gallery pictures---*/
+@media screen and (max-width: 550px) {
+  #photo {
+    column-count:2;
+  }
 }
