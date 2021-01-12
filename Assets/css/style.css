@@ -68,10 +68,10 @@
     font-size: 24px;
 }
 #hero-image {
-    height: 900px;
-    width: 100%;
     background: url("https://images.freeimages.com/images/large-previews/457/tennis-5-1565880.jpg"
 ) no-repeat center center;
+    width: 100%;
+    height: auto;
     background-size: cover;
 }
 #question-box {
@@ -93,6 +93,7 @@
     width: 100%;
     background: url("https://cdn.pixabay.com/photo/2017/02/25/00/18/tennis-2096676__340.jpg") no-repeat center center;
     background-size: cover;
+    margin-bottom: 15px;
 }
 #junior-signup {
     height: 600px;
@@ -100,21 +101,26 @@
     background: rgba(206, 220, 22, 0.8);
     border: 1px solid black;
     float: right;
-    margin-right: 0px;
+}
+#junior-signup h6{
+    font-weight: 700;
+    text-decoration: underline;
 }
 #junior-signup-small {
-    height: 920px;
-    width: 100%;
+    height: 590px;
+    width: 300px;
     background: rgba(206, 220, 22, 0.8);
     border: 1px solid black;
+    margin: 0 auto 0 auto;
+    text-align: center;
 }
 #child-signup {
-    margin-top: 15px;
+    margin-top: 0px;
     border: 1px solid black;
     border-radius: 5px;
 }
 #adult-signup {
-    margin-top: 15px;
+    margin-top: 5px;
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -191,11 +197,6 @@ p {
     background-size: cover;
 }
 /*------------image-shade----*/
-.index-shade {
-    background-color: rgba(0, 0, 0, 0.1);
-    height: 900px;
-    width: 100;
-}
 .shade {
     background-color: rgba(0, 0, 0, 0.5);
     height: 600px;
@@ -214,14 +215,21 @@ p {
     border: 1px solid black;
     border-radius: 5px;
     float: right;
+    text-align: center;
+}
+#event-signup h6{
+    font-weight: 700;
+    text-decoration: underline;
 }
 #event-signup-small {
     height: 600px;
-    width: 100%;
+    width: 300px;
     background: rgba(206, 220, 22, 0.8);
     padding-top: 15px;
     border: 1px solid black;
     border-radius: 5px;
+    margin: 30px auto 0 auto;
+    text-align: center;
 }
 #event-signup p {
     color: black;
@@ -229,6 +237,7 @@ p {
 #event-signup-small p {
     color: black;
 }
+
 .row-table {
     display: table;
 }
@@ -403,9 +412,7 @@ form{
 #space2 {
     height: 50px;
 }
-#space3 {
-    height: 50px;
-} 
+
 /*---responsive design---*/
 /*---responsive index page---*/
 @media only screen and (max-width: 550px) {
@@ -413,11 +420,20 @@ form{
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 550px) {
-  #question {
-    display:none;
+@media only screen and (max-width: 550px) {
+  #main-space {
+    height: 200px;
+    width: 100%;
+}
+}
+@media only screen and (max-width: 550px) {
+  #hero-image {
+    width: auto;
+    background-size: contain;
   }
 }
+
+
 /*---responsive events page---*/
 @media only screen and (max-width: 550px) {
   .chart {
@@ -502,3 +518,44 @@ form{
     column-count:2;
   }
 }
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgba(206, 220, 22, 0.8);
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: orange;}

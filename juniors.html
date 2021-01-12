@@ -36,48 +36,60 @@
     <section class="container-fluid">
        <div class="row" id="hero-junior">
            <div class="junior-shade col">
-               <div class="col-4" id="junior-signup">
+               <div class="dropdown">
+                    <button class="dropbtn">Social</button>
+                    <div class="dropdown-content">
+                        <p>Easter Egg 10/04/21</p>
+                        <p>Picnic 05/06/21</p>
+                        <p>Halloween Party 30/10/21</p>
+                        <p>Xmas Party 17/12/21</p>
+                    </div>
+                </div>
+               <div class="col-5" id="junior-signup">
+                   <h6>Junior Membership</h6>
+                   <div class="dropdown">
+                        <button class="dropbtn">Membership Fees</button>
+                        <div class="dropdown-content">
+                            <p>5-8 yrs £50/yr</p>
+                            <p>8-11 yrs £75/yr</p>
+                            <p>11-14 yrs £100/yr</p>
+                            <p>14-18 yrs £125/yr</p>
+                        </div>
+                    </div>
+                    <p>First month FREE!</p>
                     <div id="child-signup">
                         <form>
-                            <label for="firstname">First Name</label>
-                            <input id="firstname" type="text">
-                            <label for="lastname">Last Name</label>
-                            <input id="lastname" type="text">
-                            <label for="email">Email Address</label>
-                            <input id="email" type="email">
-                            <input type="submit">
+                            <label for="child-firstname">Child's First Name</label><br>
+                            <input id="child-firstname" type="text" required><br>
+                            <label for="child-lastname">Child's Last Name</label><br>
+                            <input id="child-lastname" type="text" required>
                         </form>
                     </div>
                     <div id="adult-signup">
                         <form>
-                            <label for="firstname">First Name</label>
-                            <input id="firstname" type="text">
-                            <label for="lastname">Last Name</label>
-                            <input id="lastname" type="text">
-                            <label for="email">Email Address</label>
-                            <input id="email" type="email">
+                            <div>
+                                <label for="adult-firstname">Parent/Guardian's First Name</label><br>
+                                <input id="adult-firstname" type="text" required><br>
+                                <label for="adult-lastname">Parent/Guardian's Last Name</label><br>
+                                <input id="adult-lastname" type="text" required>
+                            </div>
+                            <div>
+                                <label for="adult-email">Email Address</label><br>
+                                <input id="adult-email" type="email" required>
+                            </div>
+                            <div>
+                                <label for="address-1">Address 1</label><br>
+                                <input id="address-1" type="text" required><br>
+                                <label for="address-2">Address 2</label><br>
+                                <input id="address-2" type="text" required><br>
+                                <label for="postcode-junior">Postcode</label><br>
+                                <input id="postcode-junior" type="text" required>
+                            </div>
                             <input type="submit">
                         </form>
-                        <ul>
-                            <li>Membership for one year, ages 5-8 years £50.</li>
-                            <li>Membership for one year, ages 8-11 years £75.</li>
-                            <li>Membership for one year, ages 11-14 years £100.</li>
-                            <li>Membership for one year, ages 14-18 years £125.</li>
-                        </ul>
-                        <p>First month FREE!</p>
                     </div>
                 </div>
            <div class="col-md-8">
-               <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Tournaments
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <p class="dropdown-item">Junior County</p>
-                        <p class="dropdown-item">County League</p>
-                        <p class="dropdown-item">Junior League</p>
-                    </div>
-                </div>
                 <div class="timeline-item" data-dates="Monday 7pm">
                     <p>Orange group coaching (11-16 years)</p>
                 </div>
@@ -95,40 +107,51 @@
                 </div>
            </div>
        </div>
-       <div id="space3"></div>
-        
        </div>
        <div id="junior-signup-small">
-           <div id="child-signup">
-                    <form>
-                        <label for="firstname">First Name</label>
-                        <input id="firstname" type="text">
-                        <label for="lastname">Last Name</label>
-                        <input id="lastname" type="text">
-                        <label for="email">Email Address</label>
-                        <input id="email" type="email">
-                        <input type="submit">
-                    </form>
-                </div>
-                <div id="adult-signup">
-                     <form>
-                        <label for="firstname">First Name</label>
-                        <input id="firstname" type="text">
-                        <label for="lastname">Last Name</label>
-                        <input id="lastname" type="text">
-                        <label for="email">Email Address</label>
-                        <input id="email" type="email">
-                        <input type="submit">
-                    </form>
-                    <ul>
-                        <li>Membership for one year, ages 5-8 years £50.</li>
-                        <li>Membership for one year, ages 8-11 years £75.</li>
-                        <li>Membership for one year, ages 11-14 years £100.</li>
-                        <li>Membership for one year, ages 14-18 years £125.</li>
-                    </ul>
-                    <p>First month FREE!</p>
+           <h4>Junior Membership</h4>
+           <div class="dropdown">
+                <button class="dropbtn">Membership Fees</button>
+                <div class="dropdown-content">
+                    <p>5-8 yrs £50/yr</p>
+                    <p>8-11 yrs £75/yr</p>
+                    <p>11-14 yrs £100/yr</p>
+                    <p>14-18 yrs £125/yr</p>
                 </div>
             </div>
+            <p>First month FREE!</p>
+           <div id="child-signup">
+                <form>
+                    <label for="child-firstname">Child's First Name</label><br>
+                    <input id="child-firstname" type="text" required><br>
+                    <label for="child-lastname">Child's Last Name</label><br>
+                    <input id="child-lastname" type="text" required>
+                </form>
+             </div>
+            <div id="adult-signup">
+                <form>
+                    <div>
+                        <label for="adult-firstname">Parent/Guardian's First Name</label><br>
+                        <input id="adult-firstname" type="text" required><br>
+                        <label for="adult-lastname">Parent/Guardian's Last Name</label><br>
+                        <input id="adult-lastname" type="text" required>
+                    </div>
+                    <div>
+                        <label for="adult-email">Email Address</label><br>
+                        <input id="adult-email" type="email" required>
+                    </div>
+                    <div>
+                        <label for="address-1">Address 1</label><br>
+                        <input id="address-1" type="text" required><br>
+                        <label for="address-2">Address 2</label><br>
+                        <input id="address-2" type="text" required><br>
+                        <label for="postcode-junior">Postcode</label><br>
+                        <input id="postcode-junior" type="text" required>
+                    </div>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
     </section>
 
     <footer class="container-fluid">

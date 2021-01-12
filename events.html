@@ -35,28 +35,47 @@
     <section class="container-fluid"> 
        <div class="row" id="many-players">
            <div class="shade col">
-                <div class="col-4" id="event-signup">
-                    <form>
-                        <label for="firstname">First Name</label>
-                        <input id="firstname" type="text">
-                        <label for="lastname">Last Name</label>
-                        <input id="lastname" type="text">
-                        <label for="email">Email Address</label>
-                        <input id="email" type="email">
-                        <input type="submit">
-                    </form>
+                <div class="col-5" id="event-signup">
+                    <h6>Membership Sign-Up</h6>
                     <ul>
                         <li>Associate Membership for one year, £150</li>
                         <li>Full Membership for one year, £250.</li>
                     </ul>
                     <p>First month FREE!</p>
+                    <form>
+                        <div>
+                            <label for="firstname">First Name</label><br>
+                            <input id="firstname" type="text" required><br>
+                            <label for="lastname">Last Name</label><br>
+                            <input id="lastname" type="text" required>
+                        </div>
+                        <div>
+                            <label for="email">Email Address</label><br>
+                            <input id="email" type="email" required>
+                        </div>
+                        <div>
+                            <label for="address1">Address 1</label><br>
+                            <input id="address1" type="text" required><br>
+                            <label for="address2">Address 2</label><br>
+                            <input id="address2" type="text" required><br>
+                            <label for="postcode">Postcode</label><br>
+                            <input id="postcode" type="text" required>
+                        </div>
+                        <input type="submit">
+                    </form>
                 </div> 
                 <div class="col-md-8">
-                    <h6 class="social-events">Next social events 
-                        <a href="Assets/social-events.pdf" target="_blank">
-                            <i class="fa fa-download social-events"></i>
-                        </a>
-                    </h6>
+                    <div class="dropdown">
+                    <button class="dropbtn">Social</button>
+                        <div class="dropdown-content">
+                            <p>Easter Fundraiser 09/04/21</p>
+                            <p>Quiz Night 15/05/21</p>
+                            <p>Tournament Trophy Night 26/06/21</p>
+                            <p>Club Open Day 10/07/21</p>
+                            <p>Quiz Night 18/09/21</p>
+                            <p>Xmas Party 18/12/21</p>
+                        </div>
+                    </div>
                     <div class="timeline-item" data-dates="Monday 6:30pm">
                             <p>Social Mix-in</p>
                     </div>
@@ -95,20 +114,33 @@
            </div>
        </div>       
         <div id="event-signup-small">
-            <form>
-                <label for="firstname">First Name</label>
-                <input id="firstname" type="text">
-                <label for="lastname">Last Name</label>
-                <input id="lastname" type="text">
-                <label for="email">Email Address</label>
-                <input id="email" type="email">
-                <input type="submit">
-            </form>
+            <h4>Membership Sign-Up</h4>
             <ul>
                 <li>Associate Membership for one year, £150</li>
                 <li>Full Membership for one year, £250.</li>
             </ul>
             <p>First month FREE!</p>
+            <form>
+                <div>
+                    <label for="firstname">First Name</label><br>
+                    <input id="firstname" type="text" required><br>
+                    <label for="lastname">Last Name</label><br>
+                    <input id="lastname" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email Address</label><br>
+                    <input id="email" type="email" required>
+                </div>
+                <div>
+                    <label for="address1">Address 1</label><br>
+                    <input id="address1" type="text" required><br>
+                    <label for="address2">Address 2</label><br>
+                    <input id="address2" type="text" required><br>
+                    <label for="postcode">Postcode</label><br>
+                    <input id="postcode" type="text" required>
+                </div>
+                <input type="submit">
+            </form>
         </div>
     </section>
 
