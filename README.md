@@ -13,7 +13,7 @@ This enhances club reputation and improving reputation will attract more members
 and pay for recent expensive improvements to the club (overhaul of courts). 
 * The building is also available for hire which helps to generate revenue.
 
-The wireframe view of the website is provided [A link to wireframes](Tennis_club.pdf)
+The wireframe view of the website is provided in Tennis_club.pdf [Link to wireframes](Tennis_club.pdf)
 
 ## Features
 
@@ -69,7 +69,7 @@ UX feature | website page | Complete?
 -----------|--------------|---------
 Headers | All | done
 Footers | All | done
-Intro question | Home | done?
+Intro question | Home | done
 Hero image | Home | done
 Ethos statements | Home | done
 Ethos paragraphs | Home | done
@@ -79,25 +79,27 @@ Sign-up Form | Events | done
 Competition and social events | Events | done
 Contact information | Events | done
 Bar chart | Events | done
-Membership fees | Events | not done
-Venue hire link | Events | not done
+Membership fees | Events | done
+Venue hire link | Events | done
 Practice times | Juniors | done
-Sign up form | Juniors | incomplete
-Membership fees | Juniors | not done
+Sign up form | Juniors | done
+Membership fees | Juniors | done
 Contact information | Juniors | done
-New courts photos | Gallery | not done
-Social events photos | Gallery | not done
-Older courts photos | Gallery | not done
-Clubhouse photos | Gallery | not done
+New courts photos | Gallery | done
+Social events photos | Gallery | done
+Older courts photos | Gallery | done
+Clubhouse photos | Gallery | done
 
 ### Links
-links to website pages
+links to website pages 
 links to social media
 link to weather page
+These all function correctly
 ### Sign-up forms
 Submit an empty form and verify that an error message comes back.
 Submit an incorrect email address and verify an error message comes back.
 Submit a form with correct entries and verify a success message appears.
+These actions all have the correct response.
 ### Responsive design
 Desktop, tablet and mobile
 
@@ -114,9 +116,14 @@ If this was not done, the website looked messy.
 ### Content
 The Albert Lawn Tennis Club for its three ethos statements - fitness, fun and competition
 
-the webthought.blogspots.com for its bar chart code. This did not work properly for this website 
+The webthought.blogspots.com for its bar chart code. This did not work properly for this website 
 and was modified quite a lot, but provided a good starting point. The bar chart consisted of HTML and CSS only, which
 was useful because other computer languages are not covered this early in the course.
+
+w3 schools for the hoverable dropdown menu using HTML and CSS only.
+www.w3schools.com/howto/howto_css_dropdown.asp 
+the dropdown menu was adapted to display information instead of links, with changes to colours.
+This was necessary because a lot of information needed to be present on the website without crowding it.
 
 ### Media
 The Albert Lawn Tennis Club for allowing lots of photos of club and members to be used in this website.

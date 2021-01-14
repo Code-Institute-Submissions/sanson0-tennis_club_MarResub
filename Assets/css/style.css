@@ -457,22 +457,22 @@ label {
 
 
 /*---responsive events page---*/
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 680px) {
   .chart {
     display:none;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 680px) {
   .typical-nos {
     display:none;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 680px) {
   #event-signup {
     display:none;
   }
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 680px) {
   #event-signup-small {
     display:none;
   }
@@ -524,18 +524,18 @@ label {
   }
 }
 /*---responsive junior page---*/
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 680px) {
   #junior-signup {
     display:none;
   }
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 680px) {
   #junior-signup-small {
     display:none;
   }
 }
 /*---responsive gallery pictures---*/
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   #photo {
     column-count:2;
   }
