@@ -274,6 +274,7 @@ label {
     font-size: 18px;
     font-weight: 700;
     color: white;
+    margin-top: 10px;
 }
 .chart {
   display: grid;
@@ -284,8 +285,8 @@ label {
 * { box-sizing: border-box; }
 
 .chart {
-  height: 20vh;
-  width: 40vw;
+  height: 120px;
+  width: 300px;
   
 }
 [class*="bar"] {
@@ -478,51 +479,6 @@ label {
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .bar-1 span {
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    font-weight: 800;
-    font-size: 12px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .bar-2 span {
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    font-weight: 800;
-    font-size: 12px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .bar-3 span {
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    font-weight: 800;
-    font-size: 12px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .bar-4 span {
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    font-weight: 800;
-    font-size: 12px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .bar-5 span {
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    font-weight: 800;
-    font-size: 12px;
-  }
-}
 /*---responsive junior page---*/
 @media only screen and (max-width: 680px) {
   #junior-signup {
