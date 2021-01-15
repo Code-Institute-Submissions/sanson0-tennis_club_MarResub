@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"> 
-    <link rel="stylesheet" href="Assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>FAB Tennis</title>
 </head>
 <body>
@@ -37,43 +37,37 @@
            <div class="shade col">
                 <div class="col-md-4 col-sm-5" id="event-signup">
                     <h6>Membership Sign-Up</h6>
-                    <ul>
+                    <ul class="membership-list">
                         <li>Associate Membership for one year, £150</li>
                         <li>Full Membership for one year, £250.</li>
                     </ul>
                     <p>First month FREE!</p>
                     <form action="https://formdump.codeinstitute.net/" method="post">
-                        <div>
-                            <label for="firstname">First Name</label><br>
-                            <input id="firstname" type="text" required><br>
-                            <label for="lastname">Last Name</label><br>
-                            <input id="lastname" type="text" required>
-                        </div>
-                        <div>
-                            <label for="email">Email Address</label><br>
-                            <input id="email" type="email" required>
-                        </div>
-                        <div>
-                            <label for="address1">Address 1</label><br>
-                            <input id="address1" type="text" required><br>
-                            <label for="address2">Address 2</label><br>
-                            <input id="address2" type="text" required><br>
-                            <label for="postcode">Postcode</label><br>
-                            <input id="postcode" type="text" required>
-                        </div>
-                        <input type="submit" value="Submit">
+                        <label for="firstname">First Name</label><br>
+                        <input id="firstname" type="text" required><br>
+                        <label for="lastname">Last Name</label><br>
+                        <input id="lastname" type="text" required><br>
+                        <label for="email">Email Address</label><br>
+                        <input id="email" type="email" required><br>
+                        <label for="address1">Address 1</label><br>
+                        <input id="address1" type="text" required><br>
+                        <label for="address2">Address 2</label><br>
+                        <input id="address2" type="text" required><br>
+                        <label for="postcode">Postcode</label><br>
+                        <input id="postcode" type="text" required>
+                        <input id="submit-event" type="submit" value="Submit">
                     </form>
                 </div> 
                 <div class="col-md-8">
                     <div class="dropdown">
                     <button class="dropbtn">Social</button>
                         <div class="dropdown-content">
-                            <p>Easter Fundraiser 09/04/21</p>
-                            <p>Quiz Night 15/05/21</p>
-                            <p>Tournament Trophy Night 26/06/21</p>
-                            <p>Club Open Day 10/07/21</p>
-                            <p>Quiz Night 18/09/21</p>
-                            <p>Xmas Party 18/12/21</p>
+                            Easter Fundraiser 09/04/21 <br>
+                            Quiz Night 15/05/21 <br>
+                            Tournament Trophy Night 26/06/21 <br>
+                            Club Open Day 10/07/21 <br>
+                            Quiz Night 18/09/21 <br>
+                            Xmas Party 18/12/21
                         </div>
                     </div>
                     <div class="timeline-item" data-dates="Monday 6:30pm">
@@ -114,31 +108,25 @@
        </div>       
         <div id="event-signup-small">
             <h4>Membership Sign-Up</h4>
-            <ul>
+            <ul class="membership-list">
                 <li>Associate Membership for one year, £150</li>
                 <li>Full Membership for one year, £250.</li>
             </ul>
             <p>First month FREE!</p>
             <form action="https://formdump.codeinstitute.net/" method="post">
-                <div>
-                    <label for="firstname">First Name</label><br>
-                    <input id="firstname" type="text" required><br>
-                    <label for="lastname">Last Name</label><br>
-                    <input id="lastname" type="text" required>
-                </div>
-                <div>
-                    <label for="email">Email Address</label><br>
-                    <input id="email" type="email" required>
-                </div>
-                <div>
-                    <label for="address1">Address 1</label><br>
-                    <input id="address1" type="text" required><br>
-                    <label for="address2">Address 2</label><br>
-                    <input id="address2" type="text" required><br>
-                    <label for="postcode">Postcode</label><br>
-                    <input id="postcode" type="text" required>
-                </div>
-                <input type="submit" value="Submit">
+                    <label for="firstname-small">First Name</label><br>
+                    <input id="firstname-small" type="text" required><br>
+                    <label for="lastname-small">Last Name</label><br>
+                    <input id="lastname-small" type="text" required><br>
+                    <label for="email-small">Email Address</label><br>
+                    <input id="email-small" type="email" required><br>
+                    <label for="address1-small">Address 1</label><br>
+                    <input id="address1-small" type="text" required><br>
+                    <label for="address2-small">Address 2</label><br>
+                    <input id="address2-small" type="text" required><br>
+                    <label for="postcode-small">Postcode</label><br>
+                    <input id="postcode-small" type="text" required>
+                <input id="submit-event-small" type="submit" value="Submit">
             </form>
         </div>
     </section>
@@ -149,16 +137,16 @@
                 <div>
                     <ul id="nav-foot" class="list-inline menucontainer">
                         <li class="col-md-3 col-sm-6 list-inline-item">
-                            <a href="#">Coaching</a>
+                            <a href="#" target="_blank">Coaching</a>
                         </li>
                         <li class="col-md-3 col-sm-6 list-inline-item">
-                            <a href="#">Membership</a>
+                            <a href="#" target="_blank">Membership</a>
                         </li>
                         <li class="col-md-3 col-sm-6 list-inline-item">
-                            <a href="#">Hire Venue</a>
+                            <a href="#" target="_blank">Hire Venue</a>
                         </li>
                         <li class="col-md-3 col-sm-6 list-inline-item">
-                            <a href="https://www.bbc.co.uk/weather/2633691">Weather</a>
+                            <a href="https://www.bbc.co.uk/weather/2633691" target="_blank">Weather</a>
                         </li>
                     </ul>
                 </div>
@@ -169,16 +157,16 @@
                 <div>
                     <ul id="nav-foot-icon" class="list-inline menucontainer">
                         <li class="col-3 list-inline-item">
-                            <a href="https://en-gb.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://en-gb.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="col-3 list-inline-item">
-                            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
                         </li>
                         <li class="col-3 list-inline-item">
-                            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li class="col-3 list-inline-item">
-                            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
                         </li>
                     </ul>
                 </div>

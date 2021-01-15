@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"> 
-    <link rel="stylesheet" href="Assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>FAB Tennis</title>
 </head>
 <body>
@@ -39,10 +39,10 @@
                <div class="dropdown">
                     <button class="dropbtn">Social</button>
                     <div class="dropdown-content">
-                        <p>Easter Egg 10/04/21</p>
-                        <p>Picnic 05/06/21</p>
-                        <p>Halloween Party 30/10/21</p>
-                        <p>Xmas Party 17/12/21</p>
+                        Easter Egg 10/04/21<br>
+                        Picnic 05/06/21<br>
+                        Halloween Party 30/10/21<br>
+                        Xmas Party 17/12/21
                     </div>
                 </div>
                <div class="col-md-4 col-sm-5" id="junior-signup">
@@ -50,45 +50,37 @@
                    <div class="dropdown">
                         <button class="dropbtn">Membership Fees</button>
                         <div class="dropdown-content">
-                            <p>5-8 yrs £50/yr</p>
-                            <p>8-11 yrs £75/yr</p>
-                            <p>11-14 yrs £100/yr</p>
-                            <p>14-18 yrs £125/yr</p>
+                            5-8 yrs £50/yr<br>
+                            8-11 yrs £75/yr<br>
+                            11-14 yrs £100/yr<br>
+                            14-18 yrs £125/yr
                         </div>
                     </div>
                     <p>First month FREE!</p>
-                    <div id="child-signup">
-                        <form>
-                            <label for="child-firstname">Child's First Name</label><br>
-                            <input id="child-firstname" type="text" required><br>
-                            <label for="child-lastname">Child's Last Name</label><br>
-                            <input id="child-lastname" type="text" required>
-                        </form>
-                    </div>
-                    <div id="adult-signup">
                         <form action="https://formdump.codeinstitute.net/" method="post">
-                            <div>
+                            <div class="child-signup">
+                                <label for="child-firstname">Child's First Name</label><br>
+                                <input id="child-firstname" type="text" required><br>
+                                <label for="child-lastname">Child's Last Name</label><br>
+                                <input id="child-lastname" type="text" required>
+                            </div>
+                            <div class="adult-signup">
                                 <label for="adult-firstname">Parent/Guardian's First Name</label><br>
                                 <input id="adult-firstname" type="text" required><br>
                                 <label for="adult-lastname">Parent/Guardian's Last Name</label><br>
-                                <input id="adult-lastname" type="text" required>
-                            </div>
-                            <div>
+                                <input id="adult-lastname" type="text" required><br>
                                 <label for="adult-email">Email Address</label><br>
-                                <input id="adult-email" type="email" required>
-                            </div>
-                            <div>
+                                <input id="adult-email" type="email" required><br>
                                 <label for="address-1">Address 1</label><br>
                                 <input id="address-1" type="text" required><br>
                                 <label for="address-2">Address 2</label><br>
                                 <input id="address-2" type="text" required><br>
                                 <label for="postcode-junior">Postcode</label><br>
-                                <input id="postcode-junior" type="text" required>
+                                <input id="postcode-junior" type="text" required><br>
+                                <input id="submit-junior" type="submit" value="Submit">
                             </div>
-                            <input type="submit" value="Submit">
                         </form>
                     </div>
-                </div>
            <div class="col-md-8">
                 <div class="timeline-item" data-dates="Monday 7pm">
                     <p>Orange group coaching (11-16 years)</p>
@@ -120,37 +112,29 @@
                 </div>
             </div>
             <p>First month FREE!</p>
-           <div id="child-signup">
-                <form action="https://formdump.codeinstitute.net/" method="post">
+            <form action="https://formdump.codeinstitute.net/" method="post"></form>
+                <div class="child-signup">
                     <label for="child-firstname">Child's First Name</label><br>
                     <input id="child-firstname" type="text" required><br>
                     <label for="child-lastname">Child's Last Name</label><br>
                     <input id="child-lastname" type="text" required>
-                </form>
-             </div>
-            <div id="adult-signup">
-                <form action="https://formdump.codeinstitute.net/" method="post">
-                    <div>
-                        <label for="adult-firstname">Parent/Guardian's First Name</label><br>
-                        <input id="adult-firstname" type="text" required><br>
-                        <label for="adult-lastname">Parent/Guardian's Last Name</label><br>
-                        <input id="adult-lastname" type="text" required>
-                    </div>
-                    <div>
-                        <label for="adult-email">Email Address</label><br>
-                        <input id="adult-email" type="email" required>
-                    </div>
-                    <div>
-                        <label for="address-1">Address 1</label><br>
-                        <input id="address-1" type="text" required><br>
-                        <label for="address-2">Address 2</label><br>
-                        <input id="address-2" type="text" required><br>
-                        <label for="postcode-junior">Postcode</label><br>
-                        <input id="postcode-junior" type="text" required>
-                    </div>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+                </div>
+                <div class="adult-signup">
+                    <label for="adult-firstname">Parent/Guardian's First Name</label><br>
+                    <input id="adult-firstname" type="text" required><br>
+                    <label for="adult-lastname">Parent/Guardian's Last Name</label><br>
+                    <input id="adult-lastname" type="text" required><br>
+                    <label for="adult-email">Email Address</label><br>
+                    <input id="adult-email" type="email" required>
+                    <label for="address-1">Address 1</label><br>
+                    <input id="address-1" type="text" required><br>
+                    <label for="address-2">Address 2</label><br>
+                    <input id="address-2" type="text" required><br>
+                    <label for="postcode-junior">Postcode</label><br>
+                    <input id="postcode-junior" type="text" required><br>
+                    <input id="submit-junior-small" type="submit" value="Submit">
+                </div>
+            </form>
         </div>
     </section>
 
@@ -160,16 +144,16 @@
                 <div>
                     <ul id="nav-foot" class="list-inline menucontainer">
                         <li class="col-md-3 col-sm-6 list-inline-item">
-                            <a href="#">Coaching</a>
+                            <a href="#" target="_blank">Coaching</a>
                         </li>
                         <li class="col-md-3 col-sm-6 list-inline-item">
-                            <a href="#">Membership</a>
+                            <a href="#" target="_blank">Membership</a>
                         </li>
                         <li class="col-md-3 col-sm-6 list-inline-item">
-                            <a href="#">Hire Venue</a>
+                            <a href="#" target="_blank">Hire Venue</a>
                         </li>
                         <li class="col-md-3 col-sm-6 list-inline-item">
-                            <a href="https://www.bbc.co.uk/weather/2633691">Weather</a>
+                            <a href="https://www.bbc.co.uk/weather/2633691" target="_blank">Weather</a>
                         </li>
                     </ul>
                 </div>
@@ -180,16 +164,16 @@
                 <div>
                     <ul id="nav-foot-icon" class="list-inline menucontainer">
                         <li class="col-3 list-inline-item">
-                            <a href="https://en-gb.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://en-gb.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="col-3 list-inline-item">
-                            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
                         </li>
                         <li class="col-3 list-inline-item">
-                            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li class="col-3 list-inline-item">
-                            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
                         </li>
                     </ul>
                 </div>

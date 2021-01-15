@@ -13,7 +13,7 @@ This enhances club reputation and improving reputation will attract more members
 and pay for recent expensive improvements to the club (overhaul of courts). 
 * The building is also available for hire which helps to generate revenue.
 
-The wireframe view of the website is provided in Tennis_club.pdf [Link to wireframes](Tennis_club.pdf)
+The wireframe view of the website is provided in Tennis_club.pdf [Link to wireframes](assets/docs/Tennis_club.pdf)
 
 ## Features
 
@@ -55,6 +55,7 @@ The wireframe view of the website is provided in Tennis_club.pdf [Link to wirefr
 
 ### Features left to implement
 * Google maps can be included at a later date to show tennis club location.
+* Links to external websites for coaching, membership and venue hire (see footers on all pages) websites can be made. Links to coaching, membership and venue hire open onto blank pages for now.
 
 ## Technologies used
 * HTML
@@ -114,18 +115,18 @@ If this was not done, the website looked messy.
 
 ## Credits:
 ### Content
-The Albert Lawn Tennis Club for its three ethos statements - fitness, fun and competition
+The Albert Lawn Tennis Club three ethos statements - fitness, fun and competition - were used in this website
 
-The webthought.blogspots.com for its bar chart code. This did not work properly for this website 
-and was modified quite a lot, but provided a good starting point. The bar chart consisted of HTML and CSS only, which
-was useful because other computer languages are not covered this early in the course.
+css-tricks.com bar chart code was used in the Events page.
 
 w3 schools for the hoverable dropdown menu using HTML and CSS only.
 www.w3schools.com/howto/howto_css_dropdown.asp 
 the dropdown menu was adapted to display information instead of links, with changes to colours.
 This was necessary because a lot of information needed to be present on the website without crowding it.
 
+Fontawesome
 ### Media
-The Albert Lawn Tennis Club for allowing lots of photos of club and members to be used in this website.
-Shutterstock for photos on Home page, Events page and Juniors page.
+Thanks to the Albert Lawn Tennis Club for allowing photos of the club and its members to be used in this website.
+Opportunities for photos of club members playing and enjoying social events were limited due to the Covid-19 pandemic.
+Thanks to Freeimages for the photo on the Home page, and to Pixabay for photos on the Events page and Juniors page.
 
