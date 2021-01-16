@@ -71,19 +71,6 @@
     text-align: center;
     margin-bottom: 0px;
 }
-.t-ball {
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-    background: url("https://image.shutterstock.com/image-photo/tennis-ball-isolated-on-white-600w-659857153.jpg"
-) no-repeat center center;
-    padding-top: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
-}
 .tennis-ball {
     height: 150px;
     width: 150px;
@@ -99,7 +86,12 @@
     margin-left: 80px;
     font-weight: 700;
 }
-.ethos-three li{
+.tennis-ball-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tennis-ball div{
     font-size: 14px;
     padding: 0;
     text-align: center;
@@ -107,25 +99,27 @@
 #ethos-three-small {
     margin-top: 30px;
 }
+#ethos-three-small div div p {
+    background-color: white;
+    color: black;
+}
 #main-space {
     height: 500px;
 }
-p {
+.tennis-ball div {
     font-size: 20px;
     color: black;
 }
 
 .text-ball p {
-    padding-top: 0px;
-    padding-left: 20px;
+    padding: 10px 10px 10px 10px;
     background-color: black;
     border-radius: 15px;
     margin: 10px 5px 20px 5px;
     color: white;
 }
 .text-ball-small p {
-    padding-top: 0px;
-    padding-left: 20px;
+    padding: 10px 10px 10px 10px;
     background-color: white;
     border-radius: 15px;
     margin: 10px 5px 5px 5px;
@@ -212,6 +206,7 @@ p {
 }
 #submit-event {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 #event-signup-small {
     height: 100%;
@@ -245,6 +240,7 @@ label {
 }
 #submit-event-small {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 /*----Timeline (Events and Junior pages------*/
 
@@ -420,6 +416,7 @@ label {
 }
 #submit-junior {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 #junior-signup-small {
     height: 100%;
@@ -432,6 +429,7 @@ label {
 }
 #submit-junior-small {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .child-signup {
     margin: 0 20px 0 20px;
@@ -501,7 +499,16 @@ label {
     display:none;
   }
 }
-
+@media only screen and (max-width: 768px) {
+  #ethos-three {
+    display:none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #ethos-three-small {
+    display:none;
+  }
+}
 /*---responsive junior page---*/
 @media only screen and (max-width: 680px) {
   #junior-signup {
