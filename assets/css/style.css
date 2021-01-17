@@ -83,13 +83,8 @@
     padding-right: 5px;
     text-align: center;
     font-size: 18px;
-    margin-left: 80px;
     font-weight: 700;
-}
-.tennis-ball-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    margin: 0 auto 0 auto;
 }
 .tennis-ball div{
     font-size: 14px;
@@ -110,7 +105,9 @@
     font-size: 20px;
     color: black;
 }
-
+.text-ball {
+    margin: 0 auto 0 auto;
+}
 .text-ball p {
     padding: 10px 10px 10px 10px;
     background-color: black;
@@ -127,8 +124,11 @@
 #invite {
     background-color: rgba(206, 220, 22, 0.8);
     text-align: center;
+    text-transform: uppercase;
     margin-top: 0px;
-    padding-top: 0;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px, 0 10px, 0;
 }
 
 /*-------Events page------*/
@@ -251,7 +251,7 @@ label {
     border-left: 3px solid;
 }
 .timeline-item p {
-    padding-top: 2em;
+    padding-top: 2.4em;
     padding-left: 1em;
     margin: 0;
     color: white;
@@ -284,10 +284,10 @@ label {
 /*-------Bar Chart------*/
 
 .typical-nos {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .chart {
   display: grid;
