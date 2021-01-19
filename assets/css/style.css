@@ -3,6 +3,7 @@
 .title-style {
     text-align: center;
     font-weight: 700;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 /*-----header------*/
 /*-----header colours----*/
@@ -36,12 +37,13 @@
 
 #nav li {
     font-size: 18px;
-    font-weight: 700;
     padding: 0;
     text-align: center;
 }
 #nav li a {
     color: black;
+    font-weight: 700;
+     font-family: 'Arial', Helvetica, sans-serif;
 }
 
 /*------Body-----*/
@@ -64,6 +66,7 @@
 }
 .question1 {
     font-size: 50px;
+    font-family: 'Arial', Helvetica, sans-serif;
     font-weight: 700;
     color: black;
     background-color: rgba(206, 220, 22, 0.8);
@@ -83,13 +86,9 @@
     padding-right: 5px;
     text-align: center;
     font-size: 18px;
+    font-family: 'Arial', Helvetica, sans-serif;
     font-weight: 700;
     margin: 0 auto 0 auto;
-}
-.tennis-ball div{
-    font-size: 14px;
-    padding: 0;
-    text-align: center;
 }
 #ethos-three-small {
     margin-top: 30px;
@@ -97,6 +96,7 @@
 #ethos-three-small div div p {
     background-color: white;
     color: black;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 #main-space {
     height: 500px;
@@ -129,6 +129,7 @@
     font-size: 30px;
     font-weight: 700;
     padding-top: 10px, 0 10px, 0;
+    font-family: 'Arial', Helvetica, sans-serif;;
 }
 
 /*-------Events page------*/
@@ -152,6 +153,7 @@
   padding: 16px;
   font-size: 16px;
   border: none;
+  font-family: 'Arial', Helvetica, sans-serif;
 }
 
 /*-------The container <div> - needed to position the dropdown content---*/
@@ -176,6 +178,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-family: 'Arial', Helvetica, sans-serif;
 }
 
 /*------Change color of dropdown links on hover-----*/
@@ -200,13 +203,18 @@
 #event-signup form input {
     border-radius: 8px;
 }
+#event-signup form label {
+    font-family: 'Arial', Helvetica, sans-serif;
+}
 #event-signup h6{
     font-weight: 700;
     text-decoration: underline;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 #submit-event {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 #event-signup-small {
     height: 100%;
@@ -222,14 +230,19 @@
 #event-signup-small form input {
     border-radius: 8px;
 }
+#event-signup-small form input {
+    font-family: 'Arial', Helvetica, sans-serif;
+}
 #event-signup p {
     color: black;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 #event-signup-small p {
     color: black;
 }
 .membership-list {
     list-style-type: none;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 form {
     color: rgba(0, 0, 0, 0.5);
@@ -241,6 +254,7 @@ label {
 #submit-event-small {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 /*----Timeline (Events and Junior pages------*/
 
@@ -255,6 +269,7 @@ label {
     padding-left: 1em;
     margin: 0;
     color: white;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 
 .timeline-item:before {
@@ -264,6 +279,7 @@ label {
     top: 2em;
     display: block;
     font-weight: 600;
+    font-family: 'Arial', Helvetica, sans-serif;
     color: white;
     font-size: 0.8em;
     padding: 0;
@@ -288,6 +304,7 @@ label {
     font-weight: 700;
     color: white;
     margin-top: 30px;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 .chart {
   display: grid;
@@ -326,6 +343,7 @@ label {
   left: 10px;
   font-weight: 800;
   font-size: 15px;
+  font-family: 'Arial', Helvetica, sans-serif;
 }
 .bar-2 {
   grid-row-start: 25;
@@ -341,6 +359,7 @@ label {
   left: 10px;
   font-weight: 800;
   font-size: 15px;
+  font-family: 'Arial', Helvetica, sans-serif;
 }
 .bar-3 {
   grid-row-start: 12;
@@ -356,6 +375,7 @@ label {
   left: 10px;
   font-weight: 800;
   font-size: 15px;
+  font-family: 'Arial', Helvetica, sans-serif;
 }
 .bar-4 {
   grid-row-start: 25;
@@ -371,6 +391,7 @@ label {
   left: 10px;
   font-weight: 800;
   font-size: 15px;
+  font-family: 'Arial', Helvetica, sans-serif;
 }
 .bar-5 {
   grid-row-start: 0;
@@ -386,6 +407,7 @@ label {
   left: 10px;
   font-weight: 800;
   font-size: 15px;
+  font-family: 'Arial', Helvetica, sans-serif;
 }
 /*-----Junior page------*/
 
@@ -413,10 +435,12 @@ label {
 #junior-signup h6{
     font-weight: 700;
     text-decoration: underline;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 #submit-junior {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 #junior-signup-small {
     height: 100%;
@@ -427,14 +451,23 @@ label {
     text-align: center;
     border-radius: 5px;
 }
+#junior-signup-small h4{
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
 #submit-junior-small {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 .child-signup {
     margin: 0 20px 0 20px;
     border: 1px solid black;
     border-radius: 5px;
+}
+.child-signup label {
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 .child-signup input {
     border-radius: 8px;
@@ -447,11 +480,10 @@ label {
 .adult-signup input {
     border-radius: 8px;
 }
-.adult-signup p {
-    margin-top: 15px;
-    text-align: center;
-    color: black;
+.adult-signup label {
+    font-family: 'Arial', Helvetica, sans-serif;
 }
+
 /*---gallery pictures---*/
 #photo {
   clear: both;
@@ -548,4 +580,5 @@ label {
 #nav-foot li a {
     color: black;
     font-size: 24px;
+    font-family: 'Arial', Helvetica, sans-serif;;
 }
