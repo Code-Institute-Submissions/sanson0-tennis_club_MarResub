@@ -100,49 +100,61 @@ The address of this website is https://sanson0.github.io/tennis_club/
 Whenever new changes to the code are made (within the main branch), once these changes are saved, and commands git add, git commit and git push are used,
 the changes to the website are automatically deployed (so they appear at the address https://sanson0.github.io/tennis_club/). Currently there is only one branch.
 ## Testing
+Methods for testing of the website included:-
+* clicking on page icon with magnifying glass within Gitpod screen to display website
+* at the Gitpod comand line, typing 'python3 -m http.server' to display website in new screen
+* when website deployed, opening it in Chrome and investigating it with web developer tools
+* Web developer tools in Chrome have a device symbol, automatically scaling the screen for different widths of devices (responsiveness)
+* checking HTML code using W3C HTML Validator
+* checking CSS code using W3C CSS Validator
+* checking performance of the website
 ### UX requirements vs website
-UX feature | website page | Complete?
------------|--------------|---------
-Headers | All | done
-Footers | All | done
-Intro question | Home | done
-Hero image | Home | done
-Ethos statements | Home | done
-Ethos paragraphs | Home | done
-This week's main events | Home | done
-Dropdown menu (Social) | Events | done
-Practice times | Events | done
-Sign-up Form | Events | done
-Contact information | Events | done
-Bar chart | Events | done
-Membership fees | Events | done
-Venue hire link | Events | done
-Dropdown menu (Social) | Juniors | done
-Practice times | Juniors | done
-Sign up form | Juniors | done
-Dropdown membership fees | Juniors | done
-Contact information | Juniors | done
-New courts photos | Gallery | done
-Social events photos | Gallery | done
-Older courts photos | Gallery | done
-Clubhouse photos | Gallery | done
-
+Testing included checking that all necessary features were present within the website.
+UX feature | website page
+-----------|-------------
+Headers | All
+Footers | All
+Intro question | Home
+Hero image | Home
+Ethos statements | Home
+Ethos paragraphs | Home
+This week's main events | Home
+Dropdown menu (Social) | Events
+Practice times | Events
+Sign-up Form | Events
+Contact information | Events
+Bar chart | Events
+Membership fees | Events
+Venue hire link | Events
+Dropdown menu (Social) | Juniors
+Practice times | Juniors
+Sign up form | Juniors
+Dropdown membership fees | Juniors
+Contact information | Juniors
+New courts photos | Gallery
+Social events photos | Gallery
+Older courts photos | Gallery
+Clubhouse photos | Gallery
+All these features were present within the website.
 ### Links
-links to website pages 
-links to social media
-link to weather page
-links to external websites should open into a blank page (sites for coaching, membership secretary and venue hire)
+Links include:-
+* links to pages within the website (Home, Events, Juniors, Gallery)
+* links to social media, opening into a separate window
+* link to weather page, opening into a separate window
+* links to external websites opening into a blank page (sites for coaching, membership secretary and venue hire)
 These all function correctly
 ### Sign-up forms
-Submit an empty form and verify that an error message comes back.
-Submit an incorrect email address and verify an error message comes back.
-Submit a form with correct entries and verify a success message appears.
+Forms should do the following:-
+* Error message comes back if fields are left empty in the form and submitted.
+* Error message comes back if incorrect email address is entered and submitted.
+* Success message appears if correct details are entered and submitted.
 These actions all have the correct response.
 ### hoverable dropdown menus
-The dropdown menus should all display additional information (there are three in the website)
+The dropdown menus (there are three in the website) should do the following:-
+* all display additional information only when curser is close to the dropdown button
+* display text that is easy to read 
 ### Responsive design
 The website should adapt for different widths of devices eg. desktop, tablet and mobile.
-
 * Text should be easy to read and stand out from any background images.
 * Photos should be sharp and should resize if necessary for different screen widths (not left with almost blank part of image)
 * Features of the website shoould not start to overlap each other or drop off the edges of the screen.

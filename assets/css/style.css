@@ -131,6 +131,18 @@
     padding-top: 10px, 0 10px, 0;
     font-family: 'Arial', Helvetica, sans-serif;;
 }
+/*---responsive index page---*/
+@media only screen and (max-width: 550px) {
+  .question1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #main-space {
+    height: 300px;
+    width: 100%;
+    }
+}
 
 /*-------Events page------*/
 #many-players {
@@ -254,6 +266,11 @@ label {
 #submit-event-small {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#events-smallscreen div {
+    color: white;
+    margin-top: 15px;
     font-family: 'Arial', Helvetica, sans-serif;
 }
 /*----Timeline (Events and Junior pages------*/
@@ -409,6 +426,43 @@ label {
   font-size: 15px;
   font-family: 'Arial', Helvetica, sans-serif;
 }
+/*---responsive events page---*/
+@media only screen and (max-width: 680px) {
+  .chart {
+    display:none;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .typical-nos {
+    display:none;
+  }
+}
+@media only screen and (max-width: 680px) {
+  #event-signup {
+    display:none;
+  }
+}
+@media only screen and (min-width: 680px) {
+  #event-signup-small {
+    display:none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #ethos-three {
+    display:none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #ethos-three-small {
+    display:none;
+  }
+}
+@media only screen and (min-width: 680px) {
+    #events-smallscreen {
+        display: none;
+    }
+}
+
 /*-----Junior page------*/
 
 #hero-junior {
@@ -483,6 +537,33 @@ label {
 .adult-signup label {
     font-family: 'Arial', Helvetica, sans-serif;
 }
+#juniors-smallscreen div {
+    color: white;
+    margin-top: 15px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+/*---responsive junior page---*/
+@media only screen and (max-width: 680px) {
+  #junior-signup {
+    display:none;
+  }
+}
+@media only screen and (min-width: 680px) {
+  #junior-signup-small {
+    display:none;
+  }
+}
+@media only screen and (min-width: 680px) {
+    #juniors-smallscreen {
+        display: none;
+    }
+}
+/*---responsive events and junior pages---*/
+@media only screen and (max-width: 680px) {
+    .timeline-item {
+        display: none;
+    }
+}
 
 /*---gallery pictures---*/
 #photo {
@@ -496,62 +577,6 @@ label {
   width: 100%;
 }
 
-/*---responsive design---*/
-/*---responsive index page---*/
-@media only screen and (max-width: 550px) {
-  .question1 {
-    font-size: 20px;
-  }
-}
-@media only screen and (max-width: 550px) {
-  #main-space {
-    height: 300px;
-    width: 100%;
-    }
-}
-
-/*---responsive events page---*/
-@media only screen and (max-width: 680px) {
-  .chart {
-    display:none;
-  }
-}
-@media only screen and (max-width: 680px) {
-  .typical-nos {
-    display:none;
-  }
-}
-@media only screen and (max-width: 680px) {
-  #event-signup {
-    display:none;
-  }
-}
-@media only screen and (min-width: 680px) {
-  #event-signup-small {
-    display:none;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #ethos-three {
-    display:none;
-  }
-}
-@media only screen and (min-width: 768px) {
-  #ethos-three-small {
-    display:none;
-  }
-}
-/*---responsive junior page---*/
-@media only screen and (max-width: 680px) {
-  #junior-signup {
-    display:none;
-  }
-}
-@media only screen and (min-width: 680px) {
-  #junior-signup-small {
-    display:none;
-  }
-}
 /*---responsive gallery pictures---*/
 @media screen and (max-width: 680px) {
   #photo {
