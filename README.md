@@ -109,6 +109,29 @@ Methods for testing of the website included:-
 * checking CSS code using W3C CSS Validator
 * checking performance of the website
 ### UX requirements vs website
+## First impressions
+First impressions of  the website:-
+* The website must be inviting to new members and encourage current members to join practice sessions and social events.
+* There must be plenty of opportunities to sign up for membership with a free trial thrown in.
+* Text must be easy to read as there is a lot of information to make available.
+* Photos must be sharp and appealing to the viewer.
+* Contrasting colours should be used but not many of them.
+* There should be consistency between website pages of headers/ footers/ style of presentation and colours.
+Unfortunately, the first complete version of the website did not fulfil the criteria for a good first impression.
+Many quite substantial changes were made, so a new wireframe was created to allow a comparison of old and new versions.
+The wireframe view of the first complete version is provided in Tennis_club.pdf [Link to wireframe 1](assets/docs/Tennis_club.pdf)
+The wireframe view of the second complete version is provided in Lindale tennis club finish.pdf [Link to wireframe 2](assets/docs/Lindale_tennis_club_finish.pdf)
+1. A smaller number of contrasting colours were used consistently across all pages of the website.
+2. There were too many photos in version 1 for the Home, Events and Junior pages. Only one photo remained in version 2 for each page, all main background photos.
+3. Social media icons were kept in one row for all screen widths. This saves the irritation of scrolling down a long way.
+4. Number of colours reduced in header. Only the current page link was highlighted (in orange).
+5. The question "Why Play Tennis?" on the Home page was moved to the top of the background image, out of this image.
+6. Text on the Home page background image was given a contrasting background colour to allow easy reading of text.
+7. Background images for Events and Junior pages were given 50% shading, to allow white overlaid text to be easy to read.
+8. An invitation to New Members Night was added to the base of the background image as this was missing.
+9. Each icon within the tennis balls was moved to the front of the text statement so that icons are easy to align with each other.
+10. The weather link was replaced by the the County League link as it is more important to show the club's good standing in the league.
+
 Testing included checking that all necessary features were present within the website.
 UX feature | website page
 -----------|-------------
@@ -188,6 +211,9 @@ This was necessary because a lot of information needed to be present on the webs
 Mentor Nishant for simplifying part of code on the index page relating to the tennis balls
 
 Fontawesome
+
+A name generator was used to obtain a tennis club name
+www.namegenerator.biz/place-name-generator.php
 ### Media
 Thanks to the Albert Lawn Tennis Club for allowing photos of the club and its members to be used in this website.
 Opportunities for photos of club members playing and enjoying social events were limited due to the Covid-19 pandemic.
