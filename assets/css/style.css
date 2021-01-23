@@ -492,8 +492,8 @@ label {
     font-family: 'Arial', Helvetica, sans-serif;
 }
 #submit-junior {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     font-family: 'Arial', Helvetica, sans-serif;
 }
 #junior-signup-small {
@@ -527,7 +527,7 @@ label {
     border-radius: 8px;
 }
 .adult-signup {
-    margin: 10px 20px 10px 20px;
+    margin: 5px 20px 5px 20px;
     border: 1px solid black;
     border-radius: 5px;
 }
