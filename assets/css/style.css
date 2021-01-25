@@ -130,7 +130,8 @@
     margin-top: 0px;
     font-size: 30px;
     font-weight: 700;
-    padding-top: 10px, 0 10px, 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-family: 'Arial', Helvetica, sans-serif;;
 }
 /*---responsive index page---*/
@@ -161,7 +162,7 @@
 .shade {
     background-color: rgba(0, 0, 0, 0.5);
     height: 600px;
-    width: 100;
+    width: 100%;
 }
 /*----Dropdown Button Events and Junior pages-----*/
 
@@ -185,7 +186,7 @@
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  width: 280px;
+  width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -236,7 +237,7 @@
 }
 #event-signup-small {
     height: 100%;
-    width: 270px;
+    width: 250px;
     background: rgba(206, 220, 22, 0.8);
     padding-top: 15px;
     border: 1px solid black;
@@ -282,13 +283,13 @@ label {
 /*----Timeline (Events and Junior pages------*/
 
 .timeline-item {
-    padding-top: 2em 2em 0em 2em;
+    padding: 1.6em 2em 0em 2em;
     position: relative;
     color: rgba(206, 220, 22, 0.8);
     border-left: 3px solid;
 }
 .timeline-item p {
-    padding-top: 2.4em;
+    padding-top: 1em;
     padding-left: 1em;
     margin: 0;
     color: white;
@@ -417,7 +418,7 @@ label {
   font-family: 'Arial', Helvetica, sans-serif;
 }
 .bar-5 {
-  grid-row-start: 0;
+  grid-row-start: 5;
   text-align: center;
   position: relative;
   font-weight: 800;
@@ -473,7 +474,7 @@ label {
 .junior-shade {
     background-color: rgba(0, 0, 0, 0.5);
     height: 600px;
-    width: 100;
+    width: 100%;
 }
 #junior-signup {
     height: 100%;
@@ -495,7 +496,7 @@ label {
 }
 #junior-signup-small {
     height: 100%;
-    width: 270px;
+    width: 250px;
     background: rgba(206, 220, 22, 0.8);
     border: 1px solid black;
     margin: 30px auto 0 auto;
