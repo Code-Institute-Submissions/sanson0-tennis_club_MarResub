@@ -42,6 +42,7 @@ The wireframe view of the website is provided in Tennis_club.pdf [Link to wirefr
 * Membership prices should be available including a free month's trial.
 * A link to the membership secretary
 * A link to enquire about building hire.
+* A bar chart of typical player numbers to encourage people to go to practices and New Members Night.
 3. Juniors page
 * Junior members must be kept informed of practice times and contact details.
 * New junior members' parents or guardians must be able to sign up/ sign children up for membership.
@@ -55,8 +56,8 @@ The wireframe view of the website is provided in Tennis_club.pdf [Link to wirefr
 
 ### Features left to implement
 * Google maps can be included at a later date to show tennis club location.
-* Links to external websites for coaching, membership and venue hire (see footers on all pages) websites can be made. Links 
-to coaching, membership and venue hire open onto blank pages for now.
+* Links to external websites for coaching, membership, venue hire and County League (see footers on all pages) websites can be made. Links 
+to coaching, membership, venue hire and County League open onto blank pages for now.
 * Sign up forms' information is posted to the Code Institute form dump and a correct set of inputs to field results in a
 message from The Code Institute. This would be changed in order to implement the website properly.
 
