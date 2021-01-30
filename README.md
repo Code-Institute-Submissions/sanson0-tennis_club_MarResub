@@ -1,5 +1,5 @@
-# tennis_club
-tennis club website for milestone 1 project
+# Lindale lawn tennis_club
+A tennis club website for milestone 1 project
 
 ## User Experience
 
@@ -108,14 +108,14 @@ Methods for testing of the website included:-
 * Web developer tools in Chrome have a device symbol, automatically scaling the screen for different widths of devices (responsiveness)
 * checking HTML code using W3C HTML Validator
 * checking CSS code using W3C CSS Validator
-* checking performance of the website
+* checking performance of the website using Lighthouse
 ### UX requirements vs website
-## First impressions
+#### First impressions
 First impressions of  the website:-
 * The website must be inviting to new members and encourage current members to join practice sessions and social events.
 * There must be plenty of opportunities to sign up for membership with a free trial thrown in.
 * Text must be easy to read as there is a lot of information to make available.
-* Photos must be sharp and appealing to the viewer.
+* Photos must be sharp, not stretched and appealing to the viewer.
 * Contrasting colours should be used but not many of them.
 * There should be consistency between website pages of headers/ footers/ style of presentation and colours.
 Unfortunately, the first complete version of the website did not fulfil the criteria for a good first impression.
@@ -133,6 +133,39 @@ The wireframe view of the second complete version is provided in Lindale tennis 
 9. Each icon within the tennis balls was moved to the front of the text statement so that icons are easy to align with each other.
 10. The weather link was replaced by the the County League link as it is more important to show the club's good standing in the league.
 
+#### User Stories
+Please refer to the file [user stories](assets/docs/user_stories.pdf) when reading the user story statements.
+
+As a tennis club, we would like to:-
+1. Attract plenty of new members so that we have strong finances and can cover the cost of our new courts (see Home and Gallery pages).
+2. Retain current members so thatt we have long term supporters of the club contributing time and money through membership fees
+(see Events and Juniors pages).
+3. See our new facilities fully utilised.
+4. Improve the standard of play so that the club's reputation is enhanced and the club is more attractive to members and non-members
+(see Events and Juniors pages list of weekly practices plus coaching link).
+5. Attract a mixture of adult and junior players so that we have strong teams of players now and in the future (see Events and Juniors pages)
+6. Advertise our great facilities so that more people will want tojoin the club (see Gallery page).
+7. Hire out the clubhouse as a venue for celebrations/ parties and as a place for classes and lectures so that we have an extra source of income
+(see link to venue hire on every page of website).
+
+As a tennis player I would like to:-
+1. Play at a club with plenty of high standard courts so I can play all year round and can easily book a court. (See Gallery page.)
+2. Join a club that is friendly so that I can make a new set of friends and enjoy social events with them. 
+(See Social Event button on Events page, also friendship is part of ethos statement on Home page.)
+3. Play at a club with a high standard of tennis so I can improve my game. (See coaching and County League links on every page.)
+4. Play at a club where I can play competitively so I can play league matches (see Home page, competitive play is part of ethos statement).
+5. Visit a club that will allow me a free trial membership so I can see if it is a club I’d like to join.
+
+As a parent I would like my child to:-
+1. Play at a club with plenty of high standard courts so he can play all year round (see gallery page).
+2. Join a club with regular coaching (See footer of each website page and Juniors page.)
+3. Join a club that is friendly so that he can make a new set of friends and enjoy social events with them.
+(See Social Event button on Juniors page, also friendship is part of ethos statement on Home page.)
+4. Play where there is some competitive play so my child can progress to this level if this is something
+he would like/ is able to do. (see Home page, competitive play is part of ethos statement).
+5. Visit a club that will allow my child a free trial membership so we can see if it is a club he’d like to join.
+
+#### Features
 Testing included checking that all necessary features were present within the website.
 UX feature | website page
 -----------|-------------
@@ -164,9 +197,8 @@ All these features were present within the website.
 Links include:-
 * links to pages within the website (Home, Events, Juniors, Gallery)
 * links to social media, opening into a separate window
-* link to weather page, opening into a separate window
-* links to external websites opening into a blank page (sites for coaching, membership secretary and venue hire)
-These all function correctly
+* links to external websites opening into a blank page (sites for coaching, membership secretary, venue hire and County League)
+These all function correctly.
 ### Sign-up forms
 Forms should do the following:-
 * Error message comes back if fields are left empty in the form and submitted.
@@ -181,20 +213,26 @@ The dropdown menus (there are three in the website) should do the following:-
 The website should adapt for different widths of devices eg. desktop, tablet and mobile.
 * Text should be easy to read and stand out from any background images.
 * Photos should be sharp and should resize if necessary for different screen widths (not left with almost blank part of image)
-* Features of the website shoould not start to overlap each other or drop off the edges of the screen.
+* Features of the website should not start to overlap each other or drop off the edges of the screen.
 * Website should be simplified for narrow width devices.
 * Website should not appear cluttered, dropdown menus utilised to help with this.
 * Website should adapt smoothly when changing between different screen widths.
-* Is the website easy and enjoyable for others to use?
+* The website should be easy and enjoyable for others to use.
 
+There are screenshots of responsive design testing [responsive design](assets/docs/responsive_design.pdf)
+### Improvements to code
+#### General improvements
 The code and website was improved by grouping together each ethos statement with its associated
 paragraph. The statements and paragraphs were separate when the website was first put together. 
 This caused problems when adapting the website for responsive design.
-
 The layout was improved by completely moving the position of ethos statements and paragraphs at smaller
 screen sizes so that they sat underneath the background hero-image instead of being inside the hero-image.
 If this was not done, the website looked messy.
+#### Testing with code validators
 
+#### Testing performance with Lighthouse
+
+#### Bugs
 A bug was found in the code related to the tennis balls on the home page. This caused them to move out of vertical
 alignment when the website was displayed at different widths (on different devices). The code was simplified with 
 help from mentor Nishant.
@@ -204,17 +242,18 @@ The Albert Lawn Tennis Club three ethos statements - fitness, fun and competitio
 
 css-tricks.com bar chart code was used in the Events page.
 
-w3 schools for the hoverable dropdown menu using HTML and CSS only.
-www.w3schools.com/howto/howto_css_dropdown.asp 
+w3 schools for the hoverable dropdown menu using HTML and CSS only [dropdown menu](https://www.w3schools.com/howto/howto_css_dropdown.asp)
+ 
 the dropdown menu was adapted to display information instead of links, with changes to colours.
 This was necessary because a lot of information needed to be present on the website without crowding it.
 
-Mentor Nishant for simplifying part of code on the index page relating to the tennis balls
+Thanks to my mentor Nishant for all his help in improving the tennis website.
 
 Fontawesome
 
-A name generator was used to obtain a tennis club name
-www.namegenerator.biz/place-name-generator.php
+A name generator was used to obtain a tennis club name using the place name option
+[Link to name generator](https://www.namegenerator.biz/)
+
 ### Media
 Thanks to the Albert Lawn Tennis Club for allowing photos of the club and its members to be used in this website.
 Opportunities for photos of club members playing and enjoying social events were limited due to the Covid-19 pandemic.
