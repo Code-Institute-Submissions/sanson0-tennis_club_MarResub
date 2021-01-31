@@ -229,30 +229,43 @@ The layout was improved by completely moving the position of ethos statements an
 screen sizes so that they sat underneath the background hero-image instead of being inside the hero-image.
 If this was not done, the website looked messy.
 #### Testing with code validators
+The website was tested using two code validators:-
+* W3C Markup Validation Service
+* W3C CSS Validation Service
 
+The validators were very useful for finding small errors in HTML and CSS code. See the link for screenshots
+of results from these validators [Code_validation](assets/docs/Code_validators.pdf).
 #### Testing performance with Lighthouse
-
+Testing of the website was done using developer tools within the Chrome browser. The Lighthouse tool was used to generate a
+report. The report focussed on website performance, accessibility, best practices and search engine optimisation (SEO).
+The results were used to improve the website in terms of its performance. Lighthouse highlighted a problem with file sizes
+of the photos in the Gallery page. Large file sizes require a longer time to load and also cost the website user more in 
+terms of data usage. The ResizePixel image editor was used to decrease file size of the photos by up to 90%.
+The new versions of the photos were used in the website and the results for performance improved greatly.
+The screenshots of results can be viewed in the link [Lighthouse](assets/docs/Lighthouse_testing.pdf).
 #### Bugs
 A bug was found in the code related to the tennis balls on the home page. This caused them to move out of vertical
 alignment when the website was displayed at different widths (on different devices). The code was simplified with 
-help from mentor Nishant.
+help from mentor Nishant Kumar.
 ## Credits:
 ### Content
-The Albert Lawn Tennis Club three ethos statements - fitness, fun and competition - were used in this website
+The Albert Lawn Tennis Club three ethos statements - fitness, fun and competition - were used in this website.
 
-css-tricks.com bar chart code was used in the Events page.
+css-tricks.com bar chart code was used in the Events page [bar chart](https://css-tricks.com/making-a-bar-chart-with-css-grid/).
 
 w3 schools for the hoverable dropdown menu using HTML and CSS only [dropdown menu](https://www.w3schools.com/howto/howto_css_dropdown.asp)
  
 the dropdown menu was adapted to display information instead of links, with changes to colours.
 This was necessary because a lot of information needed to be present on the website without crowding it.
 
-Thanks to my mentor Nishant for all his help in improving the tennis website.
+Thanks to my mentor Nishant Kumar for all his help in improving the tennis website.
 
-Fontawesome
+Fontawesome [Fontawesome](https://fontawesome.com).
 
 A name generator was used to obtain a tennis club name using the place name option
 [Link to name generator](https://www.namegenerator.biz/)
+
+Image editor [ResizePixel](https://www.resizepixel.com/)
 
 ### Media
 Thanks to the Albert Lawn Tennis Club for allowing photos of the club and its members to be used in this website.
