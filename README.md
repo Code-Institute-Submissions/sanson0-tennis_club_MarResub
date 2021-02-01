@@ -2,10 +2,9 @@
 A tennis club website for milestone 1 project
 
 ## User Experience
-
 ### Why make this tennis club website?
 
-* There is a need for FAB tennis club to attract new members, both adults and children.
+* There is a need for Lindale tennis club to attract new members, both adults and children.
 * The club also wishes to retain its members and encourage participation in events.
 * The club would like to improve members' skill level (this helps improve position in league tables).
 This enhances club reputation and improving reputation will attract more members.
@@ -13,16 +12,11 @@ This enhances club reputation and improving reputation will attract more members
 and pay for recent expensive improvements to the club (overhaul of courts). 
 * The building is also available for hire which helps to generate revenue.
 
-The wireframe view of the website is provided in Tennis_club.pdf [Link to wireframes](assets/docs/Tennis_club.pdf)
-
-## Features
-
 ### Which features should be included in the website's design?
-
-### Generic features
+#### Generic features
 * Consistent headers and footers must be used across all pages to allow easy use of the website.
 * Headers contain links to the other pages in the website.
-* Footers contain links to the head coach's website, membership secretary, weather plus social media.
+* Footers contain links to the head coach's website, membership secretary, venue hire, County League and social media.
 * Responsive design is included for all pages to allow good display of the website on desktop, tablet and mobile phone.
 * There are separate pages for adult and junior players because training and competition events are different.
 * Consistency is needed between events page (for adult members) and juniors page making it easier for families to join.
@@ -32,32 +26,34 @@ The wireframe view of the website is provided in Tennis_club.pdf [Link to wirefr
 * Hero image
 * Ethos statements
 * Explanations of ethos statements
-* Main events this week
+* Invitation to potential new members
 2. Events pages
 * Members must be kept informed of practice times.
 * New members must be able to sign up for membership.
-* Information on competition and social events must be accessible or displayed.
+* Information on social events must be easily accessible.
 * Contact information should be accessible with a link to the head coach's and membership secretary's website.
-* Information on typical player numbers must be included as it encourages participation (barchart).
 * Membership prices should be available including a free month's trial.
-* A link to the membership secretary
-* A link to enquire about building hire.
-* A bar chart of typical player numbers to encourage people to go to practices and New Members Night.
+* A link to enquire about building hire must be included.
+* A bar chart of typical player numbers will encourage people to go to practices and New Members Night.
 3. Juniors page
 * Junior members must be kept informed of practice times and contact details.
 * New junior members' parents or guardians must be able to sign up/ sign children up for membership.
 * Junior membership prices should be available including a free month's trial.
-* Information on competitions and other childrens' events must be accessible or displayed.
+* Information on childrens' events must be accessible or displayed.
 4. Gallery page
-* Pictures of the new courts:- an investment made by the club.
+* Pictures to be included of the new courts:- an investment made by the club.
 * Social events pictures (This is a bit difficult at the moment due to the pandemic and weather conditions!)
 * Pictures of the clubhouse
-* Pictures of the older courts, too, to show there are plenty to play on.
+* Pictures to be included of the older courts, too, to show there are plenty to play on (important when booking a court for practice).
 
-### Features left to implement
+The initial wireframe view of the website can be accessed in [Link to wireframe 1](assets/docs/Tennis_club.pdf)
+Changes have been made to the website since the initial wireframe view was produced. A second version of the wireframe view
+was created and can be accessed in [Link to wireframe 2](assets/docs/Lindale_tennis_club_finish.pdf). Reasons for these changes
+are explained in the testing section of this READme file.
+#### Features left to implement
 * Google maps can be included at a later date to show tennis club location.
-* Links to external websites for coaching, membership, venue hire and County League (see footers on all pages) websites can be made. Links 
-to coaching, membership, venue hire and County League open onto blank pages for now.
+* Links to external websites for coaching, membership, venue hire and County League (see footers on all pages) websites can be activated.
+Links to coaching, membership, venue hire and County League open onto blank pages for now.
 * Sign up forms' information is posted to the Code Institute form dump and a correct set of inputs to field results in a
 message from The Code Institute. This would be changed in order to implement the website properly.
 
@@ -67,7 +63,7 @@ message from The Code Institute. This would be changed in order to implement the
 * Bootstrap 4.1
 * Github
 * Gitpod
-
+* Chrome web developer tools
 
 ## Deployment
 The process of deploying the website is described in this section and instructions are provided for deployment of changes to website.
@@ -90,15 +86,16 @@ Gitpod will appear in Github as a green button when a repository is opened.
 ### Deploying the Website
 The website code was created in Gitpod, then all the files were saved. At the Gitpod commmand line:-
 1. Git add (files)
-2. git commit -m (leaving an additional commments on what was created or changed in ""s)
-3. git push (this command transfers code fro Gitpod to the repository in Github)
+2. git commit -m "additional commments on what was created or changed"
+3. git push (this command transfers code from Gitpod to the repository in Github)
 4. On the Github site, the settings menu was selected, this displayed a new screen.
 5. In the section called 'Github Pages' where it says 'Source', the main branch was selected (the default branch).
 6. 'Save ' was clicked to display the URL of the website.
-There is often a delay of up to 20 minutes before the website becomes available.
+
+(There is often a delay of up to 20 minutes before the website becomes available.)
 The address of this website is https://sanson0.github.io/tennis_club/
 ### Making changes to the website
-Whenever new changes to the code are made (within the main branch), once these changes are saved, and commands git add, git commit and git push are used,
+Whenever new changes to the code are made (within the main branch), and these changes are saved, and commands git add, git commit and git push are used,
 the changes to the website are automatically deployed (so they appear at the address https://sanson0.github.io/tennis_club/). Currently there is only one branch.
 ## Testing
 Methods for testing of the website included:-
@@ -111,17 +108,20 @@ Methods for testing of the website included:-
 * checking performance of the website using Lighthouse
 ### UX requirements vs website
 #### First impressions
-First impressions of  the website:-
+First impressions of the website are good if:-
 * The website must be inviting to new members and encourage current members to join practice sessions and social events.
-* There must be plenty of opportunities to sign up for membership with a free trial thrown in.
+* Each page of the website must be uncluttered.
+* There must be plenty of opportunities to sign up for membership with a free trial period thrown in.
 * Text must be easy to read as there is a lot of information to make available.
 * Photos must be sharp, not stretched and appealing to the viewer.
 * Contrasting colours should be used but not many of them.
 * There should be consistency between website pages of headers/ footers/ style of presentation and colours.
+
 Unfortunately, the first complete version of the website did not fulfil the criteria for a good first impression.
 Many quite substantial changes were made, so a new wireframe was created to allow a comparison of old and new versions.
-The wireframe view of the first complete version is provided in Tennis_club.pdf [Link to wireframe 1](assets/docs/Tennis_club.pdf)
-The wireframe view of the second complete version is provided in Lindale tennis club finish.pdf [Link to wireframe 2](assets/docs/Lindale_tennis_club_finish.pdf)
+The wireframe view of the first complete version is provided in [Link to wireframe 1](assets/docs/Tennis_club.pdf)
+The wireframe view of the second complete version is provided in [Link to wireframe 2](assets/docs/Lindale_tennis_club_finish.pdf)
+Summary of differences:-
 1. A smaller number of contrasting colours were used consistently across all pages of the website.
 2. There were too many photos in version 1 for the Home, Events and Junior pages. Only one photo remained in version 2 for each page, all main background photos.
 3. Social media icons were kept in one row for all screen widths. This saves the irritation of scrolling down a long way.
@@ -133,19 +133,21 @@ The wireframe view of the second complete version is provided in Lindale tennis 
 9. Each icon within the tennis balls was moved to the front of the text statement so that icons are easy to align with each other.
 10. The weather link was replaced by the the County League link as it is more important to show the club's good standing in the league.
 
+These changes resulted in positive responses from other people who saw the first and second versions of the website.
+
 #### User Stories
 Please refer to the file [user stories](assets/docs/user_stories.pdf) when reading the user story statements.
 
 As a tennis club, we would like to:-
 1. Attract plenty of new members so that we have strong finances and can cover the cost of our new courts (see Home and Gallery pages).
-2. Retain current members so thatt we have long term supporters of the club contributing time and money through membership fees
+2. Retain current members so that we have long term supporters of the club contributing time, and money through membership fees
 (see Events and Juniors pages).
-3. See our new facilities fully utilised.
+3. See our new facilities fully utilised so that our investment (new courts) is even more worthwhile.
 4. Improve the standard of play so that the club's reputation is enhanced and the club is more attractive to members and non-members
 (see Events and Juniors pages list of weekly practices plus coaching link).
 5. Attract a mixture of adult and junior players so that we have strong teams of players now and in the future (see Events and Juniors pages)
-6. Advertise our great facilities so that more people will want tojoin the club (see Gallery page).
-7. Hire out the clubhouse as a venue for celebrations/ parties and as a place for classes and lectures so that we have an extra source of income
+6. Advertise our great facilities so that more people will want to join the club (see Gallery page).
+7. Hire out the clubhouse as a venue for celebrations/ parties and as a place for classes/ lectures so that we have an extra source of income
 (see link to venue hire on every page of website).
 
 As a tennis player I would like to:-
@@ -157,7 +159,7 @@ As a tennis player I would like to:-
 5. Visit a club that will allow me a free trial membership so I can see if it is a club I’d like to join.
 
 As a parent I would like my child to:-
-1. Play at a club with plenty of high standard courts so he can play all year round (see gallery page).
+1. Play at a club with plenty of high standard courts so he can play all year round (see Gallery page).
 2. Join a club with regular coaching (See footer of each website page and Juniors page.)
 3. Join a club that is friendly so that he can make a new set of friends and enjoy social events with them.
 (See Social Event button on Juniors page, also friendship is part of ethos statement on Home page.)
@@ -170,24 +172,24 @@ Testing included checking that all necessary features were present within the we
 UX feature | website page
 -----------|-------------
 Headers | All
+Navigation links | All
 Footers | All
+Contact information links | All
+Social media links | All
 Intro question | Home
 Hero image | Home
 Ethos statements | Home
 Ethos paragraphs | Home
-This week's main events | Home
+Invitation - New Members Night| Home
 Dropdown menu (Social) | Events
 Practice times | Events
 Sign-up Form | Events
-Contact information | Events
 Bar chart | Events
 Membership fees | Events
-Venue hire link | Events
 Dropdown menu (Social) | Juniors
 Practice times | Juniors
 Sign up form | Juniors
 Dropdown membership fees | Juniors
-Contact information | Juniors
 New courts photos | Gallery
 Social events photos | Gallery
 Older courts photos | Gallery
@@ -207,7 +209,7 @@ Forms should do the following:-
 These actions all have the correct response.
 ### hoverable dropdown menus
 The dropdown menus (there are three in the website) should do the following:-
-* all display additional information only when curser is close to the dropdown button
+* all display additional information only when curser is over the dropdown button
 * display text that is easy to read 
 ### Responsive design
 The website should adapt for different widths of devices eg. desktop, tablet and mobile.
@@ -215,19 +217,12 @@ The website should adapt for different widths of devices eg. desktop, tablet and
 * Photos should be sharp and should resize if necessary for different screen widths (not left with almost blank part of image)
 * Features of the website should not start to overlap each other or drop off the edges of the screen.
 * Website should be simplified for narrow width devices.
-* Website should not appear cluttered, dropdown menus utilised to help with this.
+* Website should not appear cluttered, dropdown menus are utilised to help with this.
 * Website should adapt smoothly when changing between different screen widths.
 * The website should be easy and enjoyable for others to use.
 
 There are screenshots of responsive design testing [responsive design](assets/docs/responsive_design.pdf)
 ### Improvements to code
-#### General improvements
-The code and website was improved by grouping together each ethos statement with its associated
-paragraph. The statements and paragraphs were separate when the website was first put together. 
-This caused problems when adapting the website for responsive design.
-The layout was improved by completely moving the position of ethos statements and paragraphs at smaller
-screen sizes so that they sat underneath the background hero-image instead of being inside the hero-image.
-If this was not done, the website looked messy.
 #### Testing with code validators
 The website was tested using two code validators:-
 * W3C Markup Validation Service
@@ -240,13 +235,13 @@ Testing of the website was done using developer tools within the Chrome browser.
 report. The report focussed on website performance, accessibility, best practices and search engine optimisation (SEO).
 The results were used to improve the website in terms of its performance. Lighthouse highlighted a problem with file sizes
 of the photos in the Gallery page. Large file sizes require a longer time to load and also cost the website user more in 
-terms of data usage. The ResizePixel image editor was used to decrease file size of the photos by up to 90%.
+terms of data usage. The [ResizePixel](https://www.resizepixel.com) image editor was used to decrease file size of the photos by up to 90%.
 The new versions of the photos were used in the website and the results for performance improved greatly.
 The screenshots of results can be viewed in the link [Lighthouse](assets/docs/Lighthouse_testing.pdf).
 #### Bugs
 A bug was found in the code related to the tennis balls on the home page. This caused them to move out of vertical
 alignment when the website was displayed at different widths (on different devices). The code was simplified with 
-help from mentor Nishant Kumar.
+help from mentor Nishant Kumar. Open the link [Bug](assets/docs/Tennis_ball_bug.pdf).
 ## Credits:
 ### Content
 The Albert Lawn Tennis Club three ethos statements - fitness, fun and competition - were used in this website.
@@ -254,21 +249,19 @@ The Albert Lawn Tennis Club three ethos statements - fitness, fun and competitio
 css-tricks.com bar chart code was used in the Events page [bar chart](https://css-tricks.com/making-a-bar-chart-with-css-grid/).
 
 w3 schools for the hoverable dropdown menu using HTML and CSS only [dropdown menu](https://www.w3schools.com/howto/howto_css_dropdown.asp)
- 
-the dropdown menu was adapted to display information instead of links, with changes to colours.
-This was necessary because a lot of information needed to be present on the website without crowding it.
+The dropdown menu was adapted to display information instead of links, with changes to colours.
 
-Thanks to my mentor Nishant Kumar for all his help in improving the tennis website.
+Thanks to mentor Nishant Kumar for all his help in improving this tennis website.
 
-Fontawesome [Fontawesome](https://fontawesome.com).
+Fontawesome [Fontawesome](https://fontawesome.com) for icons.
 
-A name generator was used to obtain a tennis club name using the place name option
+A name generator was used to obtain a tennis club name using the place name option.
 [Link to name generator](https://www.namegenerator.biz/)
 
-Image editor [ResizePixel](https://www.resizepixel.com/)
+Image editor [ResizePixel](https://www.resizepixel.com/). This editor was used to reduce file sizes of most photos significantly.
 
 ### Media
 Thanks to the Albert Lawn Tennis Club for allowing photos of the club and its members to be used in this website.
 Opportunities for photos of club members playing and enjoying social events were limited due to the Covid-19 pandemic.
-Thanks to Freeimages for the photo on the Home page, and to Pixabay for photos on the Events page and Juniors page.
+Thanks to [Freeimages](https://www.freeimages.com) for the photo on the Home page, and to [Pixabay](https://pixabay.com) for photos on the Events page and Juniors page.
 
