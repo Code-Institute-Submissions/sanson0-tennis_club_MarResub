@@ -61,7 +61,7 @@
     background: url("https://images.freeimages.com/images/large-previews/457/tennis-5-1565880.jpg"
 ) no-repeat center center;
     max-width: 100%;
-    height: auto;
+    height: 900px;
     background-size: cover;
 }
 .question1 {
@@ -145,9 +145,14 @@
     display:none;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   #ethos-three-small {
     display:none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #hero-image {
+    height: 400px;
   }
 }
 
@@ -449,13 +454,13 @@ label {
     display:none;
   }
 }
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 681px) {
   #event-signup-small {
     display:none;
   }
 }
 
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 681px) {
     #events-smallscreen {
         display: none;
     }
@@ -557,12 +562,12 @@ label {
     display:none;
   }
 }
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 681px) {
   #junior-signup-small {
     display:none;
   }
 }
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 681px) {
     #juniors-smallscreen {
         display: none;
     }
