@@ -116,13 +116,7 @@
     color: white;
     text-align: center;
 }
-.text-ball-small p {
-    padding: 10px 10px 10px 10px;
-    background-color: white;
-    border-radius: 15px;
-    margin: 10px 5px 5px 5px;
-    text-align: center;
-}
+
 #invite {
     background-color: rgba(206, 220, 22, 0.8);
     text-align: center;
@@ -169,7 +163,8 @@
     height: 600px;
     width: 100%;
 }
-/*----Dropdown Button Events and Junior pages-----*/
+/*----Dropdown Button Events and Junior pages-
+Code from w3 schools.com was used to create the hoverable dropdown menus----*/
 
 .dropbtn {
   background-color: rgba(206, 220, 22, 0.8);
@@ -326,7 +321,8 @@ label {
     background: rgba(206, 220, 22, 0.8);
 }
 
-/*-------Bar Chart------*/
+/*-------Bar Chart---
+code is adapted from css-tricks.com (bar chart)---*/
 
 .typical-nos {
     font-size: 20px;
@@ -579,7 +575,7 @@ label {
     }
 }
 
-/*---gallery pictures---*/
+/*---gallery pictures--code obtained from 'Love Running' website from The Code Institute-*/
 #photo {
   clear: both;
   line-height: 0;

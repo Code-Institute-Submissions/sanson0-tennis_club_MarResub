@@ -103,6 +103,7 @@ Methods for testing of the website included:-
 * at the Gitpod comand line, typing 'python3 -m http.server' to display website in new screen
 * when website deployed, opening it in Chrome and investigating it with web developer tools
 * Web developer tools in Chrome have a device symbol, automatically scaling the screen for different widths of devices (responsiveness)
+* Checking website on different devices
 * checking HTML code using W3C HTML Validator
 * checking CSS code using W3C CSS Validator
 * checking performance of the website using Lighthouse
