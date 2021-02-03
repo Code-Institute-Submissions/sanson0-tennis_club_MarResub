@@ -260,6 +260,10 @@ A name generator was used to obtain a tennis club name using the place name opti
 
 Image editor [ResizePixel](https://www.resizepixel.com/). This editor was used to reduce file sizes of most photos significantly.
 
+Code from The 'Love Running' website (The Code Institute) gallery page was used for the gallery page in this project.
+
+Code from the 'Resume' website (The Code Institute) header navigation bar was adapted for this website.
+
 ### Media
 Thanks to the Albert Lawn Tennis Club for allowing photos of the club and its members to be used in this website.
 Opportunities for photos of club members playing and enjoying social events were limited due to the Covid-19 pandemic.
