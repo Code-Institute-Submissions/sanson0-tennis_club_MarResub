@@ -65,7 +65,7 @@ message from The Code Institute, opening into a new page. This would be changed 
 
 ## Deployment
 The process of deploying the website is described in this section and instructions are provided for deployment of changes to website.
-The Gitpod workspace was created from the new repository on Github. To make changes to the website, log in to Gitpod to modify code 
+The Gitpod workspace was created from the new repository 'tennis_club' on Github. To make changes to the website, log in to Gitpod to modify code 
 within the workspace.
 
 ### Deploying the Website
