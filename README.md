@@ -15,10 +15,10 @@ and pay for recent expensive improvements to the club (overhaul of courts).
 ### Which features should be included in the website's design?
 #### Features on all pages
 * Consistent headers and footers must be used across all pages to allow easy use of the website.
-* Headers contain links to the other pages in the website.
-* Footers contain links to the head coach's website, membership secretary, venue hire, County League and social media.
-* Responsive design is included for all pages to allow good display of the website on desktop, tablet and mobile phone.
-* There are separate pages for adult and junior players because training and social events are different.
+* Headers must contain links to the other pages in the website.
+* Footers must contain links to the head coach's website, membership secretary, venue hire, County League and social media.
+* Responsive design must be included for all pages to allow good display of the website on desktop, tablet and mobile phone.
+* There must be separate pages for adult and junior players because training and social events are different.
 * Consistency is needed between events page (for adult members) and juniors page making it easier for families to join.
 #### Features on each page
 1. Home page
@@ -65,25 +65,11 @@ message from The Code Institute, opening into a new page. This would be changed 
 
 ## Deployment
 The process of deploying the website is described in this section and instructions are provided for deployment of changes to website.
-Creation of the Gitpod workspace from the Github page is done by clicking the green Gitpod button. Log in to Gitpod after that to modify code within the 
-workspace, so that changes can be made to the website.
-### How to install the Gitpod extension in Firefox
-To install the Gitpod extension in Firefox, from the create new repository screen:-
-1. In the menu at the top right, click on 'Add-ons', from there search 'addons.mozilla'.
-2. Type in 'Gitpod' and the first result is the correct extension.
-3. Click on the extension, then click 'Add to Firefox'
-4. Confirm permissions
-Gitpod will appear in Github as a green button when a repository is opened.
-### How to install the Gitpod extension in Chrome
-To install the Gitpod extension in Chrome, from the create new repository screen:-
-1. Click on the three dots menu.
-2. Go to 'More Tools'>Extensions.
-3. Click on the hamburger menu, then click 'Open Chrome Web Store'
-4. search for Gitpod, this gives only one result.
-5. Click on 'Gitpod' and click 'Add to Chrome', then 'Add Extension'
-Gitpod will appear in Github as a green button when a repository is opened.
+The Gitpod workspace was created from the new repository on Github. To make changes to the website, log in to Gitpod to modify code 
+within the workspace.
+
 ### Deploying the Website
-The website code was created/ modified in Gitpod, then all the files were saved. At the Gitpod commmand line:-
+The website code was created/ modified in Gitpod, then all the files were saved. The following was typed at the Gitpod commmand line:-
 1. Git add (files created/ modified)
 2. git commit -m "commments on what was created or changed"
 3. git push (this command transfers code from Gitpod to the repository in Github)
@@ -91,7 +77,6 @@ The website code was created/ modified in Gitpod, then all the files were saved.
 5. In the section called 'Github Pages' where it says 'Source', the main branch was selected (the default branch).
 6. 'Save ' was clicked to display the URL of the website.
 
-(There is often a delay of up to 20 minutes before the website becomes available.)
 The address of this website is https://sanson0.github.io/tennis_club/
 ### Making changes to the website
 Whenever new changes to the code are made in Gitpod (within the main branch), and these changes are saved, and commands git add, git commit and git push are used,
@@ -100,8 +85,8 @@ the changes to the website are automatically deployed (so they appear at the add
 Methods for testing of the website included:-
 * Clicking on page icon with magnifying glass within Gitpod screen to display website, changes appear once files are saved
 * at the Gitpod comand line, typing 'python3 -m http.server' to display website in new screen
-* When website deployed, opening it in Chrome and investigating it with web developer tools
-* Web developer tools in Chrome have a device symbol, automatically scaling the screen for different widths of devices (responsiveness)
+* When website deployed, opening it in each browser and investigating it with web developer tools
+* Web developer tools in each browser have a device symbol, automatically scaling the screen for different widths of devices (responsiveness)
 * Checking website on different devices
 * Checking the website on different browsers (Firefox, Google Chrome, Microsoft Edge, Avast)
 * Checking HTML code using W3C HTML Validator
@@ -206,12 +191,14 @@ Links include:-
 * links to pages within the website (Home, Events, Juniors, Gallery)
 * links to social media, opening into a separate window
 * links to external websites opening into a new page (sites for coaching, membership secretary, venue hire and County League)
+
 These all function correctly.
 ### Sign-up forms
 Forms should do the following:-
 * Error message comes back if fields are left empty in the form and submitted.
 * Error message comes back if incorrect email address is entered and submitted.
 * Success message appears if correct details are entered and submitted.
+
 These actions all have the correct response.
 ### hoverable dropdown menus
 The dropdown menus (there are three in the website) should do the following:-
@@ -237,7 +224,7 @@ The website was tested using two code validators:-
 The validators were very useful for finding small errors in HTML and CSS code. See the link for screenshots
 of results from these validators [Code_validation](assets/docs/Code_validators.pdf).
 #### Testing performance with Lighthouse
-Testing of the website was done using developer tools within the Chrome browser. The Lighthouse tool was used to generate a
+Testing of the website was done using developer tools within each browser. The Lighthouse tool was used to generate a
 report. The report focussed on website performance, accessibility, best practices and search engine optimisation (SEO).
 The results were used to improve the website in terms of its performance. Lighthouse highlighted a problem with file sizes
 of the photos in the Gallery page. Large file sizes require a longer time to load and also cost the website user more in 
