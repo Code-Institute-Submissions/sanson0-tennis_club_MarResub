@@ -65,7 +65,8 @@ message from The Code Institute, opening into a new page. This would be changed 
 
 ## Deployment
 The process of deploying the website is described in this section and instructions are provided for deployment of changes to website.
-Changes to the website are made easier by having the Gitpod extension installed in Firefox or Chrome browser.
+Creation of the Gitpod workspace from the Github page is done by clicking the green Gitpod button. Log in to Gitpod after that to modify code within the 
+workspace, so that changes can be made to the website.
 ### How to install the Gitpod extension in Firefox
 To install the Gitpod extension in Firefox, from the create new repository screen:-
 1. In the menu at the top right, click on 'Add-ons', from there search 'addons.mozilla'.
@@ -82,9 +83,9 @@ To install the Gitpod extension in Chrome, from the create new repository screen
 5. Click on 'Gitpod' and click 'Add to Chrome', then 'Add Extension'
 Gitpod will appear in Github as a green button when a repository is opened.
 ### Deploying the Website
-The website code was created in Gitpod, then all the files were saved. At the Gitpod commmand line:-
-1. Git add (files)
-2. git commit -m "additional commments on what was created or changed"
+The website code was created/ modified in Gitpod, then all the files were saved. At the Gitpod commmand line:-
+1. Git add (files created/ modified)
+2. git commit -m "commments on what was created or changed"
 3. git push (this command transfers code from Gitpod to the repository in Github)
 4. On the Github site, the settings menu was selected, this displayed a new screen.
 5. In the section called 'Github Pages' where it says 'Source', the main branch was selected (the default branch).
@@ -93,18 +94,19 @@ The website code was created in Gitpod, then all the files were saved. At the Gi
 (There is often a delay of up to 20 minutes before the website becomes available.)
 The address of this website is https://sanson0.github.io/tennis_club/
 ### Making changes to the website
-Whenever new changes to the code are made (within the main branch), and these changes are saved, and commands git add, git commit and git push are used,
+Whenever new changes to the code are made in Gitpod (within the main branch), and these changes are saved, and commands git add, git commit and git push are used,
 the changes to the website are automatically deployed (so they appear at the address https://sanson0.github.io/tennis_club/). Currently there is only one branch.
 ## Testing
 Methods for testing of the website included:-
-* clicking on page icon with magnifying glass within Gitpod screen to display website
+* Clicking on page icon with magnifying glass within Gitpod screen to display website, changes appear once files are saved
 * at the Gitpod comand line, typing 'python3 -m http.server' to display website in new screen
-* when website deployed, opening it in Chrome and investigating it with web developer tools
+* When website deployed, opening it in Chrome and investigating it with web developer tools
 * Web developer tools in Chrome have a device symbol, automatically scaling the screen for different widths of devices (responsiveness)
 * Checking website on different devices
-* checking HTML code using W3C HTML Validator
-* checking CSS code using W3C CSS Validator
-* checking performance of the website using Lighthouse
+* Checking the website on different browsers (Firefox, Google Chrome, Microsoft Edge, Avast)
+* Checking HTML code using W3C HTML Validator
+* Checking CSS code using W3C CSS Validator
+* Checking performance of the website using Lighthouse
 ### UX requirements vs website
 #### First impressions
 First impressions of the website are good if:-
@@ -139,9 +141,10 @@ These changes resulted in positive responses from other people who saw the first
 Please refer to the file [user stories](assets/docs/user_stories.pdf) when reading the user story statements.
 (The website must answer the users' needs and the answers can be found at the location in brackets.)
 As a tennis club, we would like to:-
-1. Attract plenty of new members so that we have strong finances and can cover the cost of our new courts (see Home and Gallery pages).
+1. Attract plenty of new members so that we have strong finances and can cover the cost of our new courts (see Home-invitation statement and 
+Gallery pages, and also sign up forms in Events and Junior pages).
 2. Retain current members so that we have long term supporters of the club contributing time, and money through membership fees
-(see Events and Juniors pages).
+(see Events and Juniors pages, particularly practice times and social events dropdown buttons).
 3. See our new facilities fully utilised so that our investment (new courts) is even more worthwhile.
 4. Improve the standard of play so that the club's reputation is enhanced and the club is more attractive to members and non-members
 (see Events and Juniors pages list of weekly practices plus coaching link).
@@ -156,16 +159,18 @@ As a tennis player I would like to:-
 (See Social Event button on Events page, also friendship is part of ethos statement on Home page.)
 3. Play at a club with a high standard of tennis so I can improve my game. (See coaching and County League links on every page.)
 4. Play at a club where I can play competitively so I can play league matches (see Home page, competitive play is part of ethos statement).
-5. Visit a club that will allow me a free trial membership so I can see if it is a club I’d like to join.
+5. Visit a club that will allow me a free trial membership so I can see if it is a club I’d like to join (see free month's trial membership
+on Events page).
 
 As a parent I would like my child to:-
 1. Play at a club with plenty of high standard courts so he can play all year round (see Gallery page).
-2. Join a club with regular coaching (See footer of each website page and Juniors page.)
+2. Join a club with regular coaching (See coaching link in footer of each website page and Juniors page.)
 3. Join a club that is friendly so that he can make a new set of friends and enjoy social events with them.
 (See Social Event button on Juniors page, also friendship is part of ethos statement on Home page.)
 4. Play where there is some competitive play so my child can progress to this level if this is something
 he would like/ is able to do. (see Home page, competitive play is part of ethos statement).
-5. Visit a club that will allow my child a free trial membership so we can see if it is a club he’d like to join.
+5. Visit a club that will allow my child a free trial membership so we can see if it is a club he’d like to join (see free month's trial 
+membership in Juniors' page).
 
 #### Features
 Testing included checking that all necessary features were present within the website.
