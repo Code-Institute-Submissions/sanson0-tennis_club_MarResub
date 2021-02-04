@@ -46,7 +46,7 @@
      font-family: 'Arial', Helvetica, sans-serif;
 }
 
-/*------Body-----*/
+/*------header and footer-----*/
 
 .list-inline-item:not(:last-child) {
     margin: 0px;
@@ -55,8 +55,17 @@
     font-size: 0;
 }
 
-/*-----index page-------*/
-
+/*-----index page section------*/
+.question1 {
+    font-size: 50px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    background-color: rgb(209, 235, 9);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;
+}
 #hero-image {
     background: url("https://images.freeimages.com/images/large-previews/457/tennis-5-1565880.jpg"
 ) no-repeat center center;
@@ -64,15 +73,8 @@
     height: 900px;
     background-size: cover;
 }
-.question1 {
-    font-size: 50px;
-    font-family: 'Arial', Helvetica, sans-serif;
-    font-weight: 700;
-    color: black;
-    background-color: rgba(206, 220, 22, 0.8);
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 0px;
+#main-space {
+    height: 500px;
 }
 .tennis-ball {
     height: 150px;
@@ -90,17 +92,6 @@
     font-weight: 700;
     margin: 0 auto 0 auto;
 }
-#ethos-three-small {
-    margin-top: 30px;
-}
-#ethos-three-small div div p {
-    background-color: white;
-    color: black;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-#main-space {
-    height: 500px;
-}
 .tennis-ball div {
     font-size: 20px;
     color: black;
@@ -116,9 +107,16 @@
     color: white;
     text-align: center;
 }
-
+#ethos-three-small {
+    margin-top: 30px;
+}
+#ethos-three-small div div p {
+    background-color: white;
+    color: black;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
 #invite {
-    background-color: rgba(206, 220, 22, 0.8);
+    background-color: rgb(209, 235, 9);
     text-align: center;
     text-transform: uppercase;
     margin-top: 0px;
@@ -150,7 +148,7 @@
   }
 }
 
-/*-------Events page------*/
+/*-------Events page section------*/
 #close-up-player {
     background: url("https://cdn.pixabay.com/photo/2020/11/27/18/59/tennis-5782695_1280.jpg") no-repeat center center;
     background-size: cover;
@@ -163,11 +161,52 @@
     height: 600px;
     width: 100%;
 }
+#event-signup {
+    height: 100%;
+    width: 100%;
+    background: rgba(209, 235, 9, 0.8);
+    padding-top: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: right;
+    text-align: center;
+}
+#event-signup form input {
+    border-radius: 8px;
+}
+#event-signup form label {
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#event-signup h6{
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#event-signup p {
+    color: black;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#submit-event {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.membership-list {
+    list-style-type: none;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+form {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+label {
+    color: black;
+}
 /*----Dropdown Button Events and Junior pages-
 Code from w3 schools.com was used to create the hoverable dropdown menus----*/
 
 .dropbtn {
-  background-color: rgba(206, 220, 22, 0.8);
+  background-color: orange;
   color: black;
   padding: 16px;
   font-size: 16px;
@@ -207,85 +246,15 @@ Code from w3 schools.com was used to create the hoverable dropdown menus----*/
 .dropdown:hover .dropdown-content {display: block;}
 
 /*------Change the background color of the dropdown button when the dropdown content is shown---*/
-.dropdown:hover .dropbtn {background-color: orange;}
+.dropdown:hover .dropbtn {background-color: #ebc41b;}
 
-#event-signup {
-    height: 100%;
-    width: 100%;
-    background: rgba(206, 220, 22, 0.8);
-    padding-top: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
-    float: right;
-    text-align: center;
-}
-#event-signup form input {
-    border-radius: 8px;
-}
-#event-signup form label {
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-#event-signup h6{
-    font-weight: 700;
-    text-decoration: underline;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-#submit-event {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-#event-signup-small {
-    height: 100%;
-    width: 250px;
-    background: rgba(206, 220, 22, 0.8);
-    padding-top: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 30px auto 0 auto;
-    text-align: center;
-    border-radius: 5px;
-}
-#event-signup-small form input {
-    border-radius: 8px;
-}
-#event-signup-small form input {
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-#event-signup p {
-    color: black;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-#event-signup-small p {
-    color: black;
-}
-.membership-list {
-    list-style-type: none;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-form {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 12px;
-}
-label {
-    color: black;
-}
-#submit-event-small {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-#events-smallscreen div {
-    color: white;
-    margin-top: 15px;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-/*----Timeline (Events and Junior pages------*/
+/*----Timeline (Events and Junior pages)--
+Adapted from 'Resume' website by The Code Institute----*/
 
 .timeline-item {
     padding: 1.6em 2em 0em 2em;
     position: relative;
-    color: rgba(206, 220, 22, 0.8);
+    color: rgba(209, 235, 9, 0.8);
     border-left: 3px solid;
 }
 .timeline-item p {
@@ -295,7 +264,6 @@ label {
     color: white;
     font-family: 'Arial', Helvetica, sans-serif;
 }
-
 .timeline-item:before {
     content: attr(data-dates);
     position: absolute;
@@ -318,9 +286,13 @@ label {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: rgba(206, 220, 22, 0.8);
+    background: rgba(209, 235, 9, 0.8);
 }
-
+#events-smallscreen div {
+    color: white;
+    margin-top: 15px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
 /*-------Bar Chart---
 code is adapted from css-tricks.com (bar chart)---*/
 
@@ -348,7 +320,7 @@ code is adapted from css-tricks.com (bar chart)---*/
   grid-row-start: 1;
   grid-row-end: 101;
   border-radius: 5px 5px 5px 5px;
-  background-color: rgba(206, 220, 22, 0.8);
+  background-color: rgba(209, 235, 9, 0.8);
 }
 [class*="bar"] {
   grid-row-end: 101;
@@ -434,6 +406,32 @@ code is adapted from css-tricks.com (bar chart)---*/
   font-size: 15px;
   font-family: 'Arial', Helvetica, sans-serif;
 }
+#event-signup-small {
+    height: 100%;
+    width: 250px;
+    background: rgba(209, 235, 9, 0.8);
+    padding-top: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+#event-signup-small form input {
+    border-radius: 8px;
+}
+#event-signup-small form input {
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+#event-signup-small p {
+    color: black;
+}
+#submit-event-small {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
 /*---responsive events page---*/
 @media only screen and (max-width: 680px) {
   .chart {
@@ -462,7 +460,7 @@ code is adapted from css-tricks.com (bar chart)---*/
     }
 }
 
-/*-----Junior page------*/
+/*-----Junior page section------*/
 
 #hero-junior {
     height: 600px;
@@ -477,10 +475,11 @@ code is adapted from css-tricks.com (bar chart)---*/
     height: 600px;
     width: 100%;
 }
+/*-see Events page CSS for dropdown menu styling--*/
 #junior-signup {
     height: 100%;
     width: 100%;
-    background: rgba(206, 220, 22, 0.8);
+    background: rgba(209, 235, 9, 0.8);
     border: 1px solid black;
     float: right;
     text-align: center;
@@ -497,33 +496,7 @@ code is adapted from css-tricks.com (bar chart)---*/
     padding-top: 2px;
     padding-bottom: 2px;
 }
-#submit-junior {
-    margin-top: 3px;
-    margin-bottom: 3px;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-#junior-signup-small {
-    height: 100%;
-    width: 250px;
-    background: rgba(206, 220, 22, 0.8);
-    border: 1px solid black;
-    margin: 30px auto 0 auto;
-    text-align: center;
-    border-radius: 5px;
-}
-#junior-signup-small h4{
-    font-weight: 700;
-    text-decoration: underline;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
-#junior-signup-small div div {
-    text-align: left;
-}
-#submit-junior-small {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Arial', Helvetica, sans-serif;
-}
+/*-see Events page CSS for dropdown menu styling--*/
 .child-signup {
     margin: 0 20px 0 20px;
     border: 1px solid black;
@@ -547,11 +520,40 @@ code is adapted from css-tricks.com (bar chart)---*/
 .adult-signup label {
     font-family: 'Arial', Helvetica, sans-serif;
 }
+#submit-junior {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+/*-see Events page CSS for timeline styling--*/
 #juniors-smallscreen div {
     color: white;
     margin-top: 15px;
     font-family: 'Arial', Helvetica, sans-serif;
 }
+#junior-signup-small {
+    height: 100%;
+    width: 250px;
+    background: rgba(209, 235, 9, 0.8);
+    border: 1px solid black;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+#junior-signup-small h4{
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#junior-signup-small div div {
+    text-align: left;
+}
+#submit-junior-small {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+/*-see Events page CSS for dropdown menu and form styling--*/
 /*---responsive junior page---*/
 @media only screen and (max-width: 680px) {
   #junior-signup {

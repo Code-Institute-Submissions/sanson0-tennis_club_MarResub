@@ -13,16 +13,16 @@ and pay for recent expensive improvements to the club (overhaul of courts).
 * The building is also available for hire which helps to generate revenue.
 
 ### Which features should be included in the website's design?
-#### Generic features
+#### Features on all pages
 * Consistent headers and footers must be used across all pages to allow easy use of the website.
 * Headers contain links to the other pages in the website.
 * Footers contain links to the head coach's website, membership secretary, venue hire, County League and social media.
 * Responsive design is included for all pages to allow good display of the website on desktop, tablet and mobile phone.
-* There are separate pages for adult and junior players because training and competition events are different.
+* There are separate pages for adult and junior players because training and social events are different.
 * Consistency is needed between events page (for adult members) and juniors page making it easier for families to join.
-
+#### Features on each page
 1. Home page
-* Introduction -question
+* Introduction - question
 * Hero image
 * Ethos statements
 * Explanations of ethos statements
@@ -31,9 +31,7 @@ and pay for recent expensive improvements to the club (overhaul of courts).
 * Members must be kept informed of practice times.
 * New members must be able to sign up for membership.
 * Information on social events must be easily accessible.
-* Contact information should be accessible with a link to the head coach's and membership secretary's website.
 * Membership prices should be available including a free month's trial.
-* A link to enquire about building hire must be included.
 * A bar chart of typical player numbers will encourage people to go to practices and New Members Night.
 3. Juniors page
 * Junior members must be kept informed of practice times and contact details.
@@ -53,9 +51,9 @@ are explained in the testing section of this READme file.
 #### Features left to implement
 * Google maps can be included at a later date to show tennis club location.
 * Links to external websites for coaching, membership, venue hire and County League (see footers on all pages) websites can be activated.
-Links to coaching, membership, venue hire and County League open onto blank pages for now.
-* Sign up forms' information is posted to the Code Institute form dump and a correct set of inputs to field results in a
-message from The Code Institute. This would be changed in order to implement the website properly.
+Links to coaching, membership, venue hire and County League open into new pages for now.
+* Sign up forms' information is posted to the Code Institute form dump and a correct set of inputs to field results in a success
+message from The Code Institute, opening into a new page. This would be changed in order to implement the website properly.
 
 ## Technologies used
 * HTML
@@ -110,13 +108,13 @@ Methods for testing of the website included:-
 ### UX requirements vs website
 #### First impressions
 First impressions of the website are good if:-
-* The website must be inviting to new members and encourage current members to join practice sessions and social events.
-* Each page of the website must be uncluttered.
-* There must be plenty of opportunities to sign up for membership with a free trial period thrown in.
-* Text must be easy to read as there is a lot of information to make available.
-* Photos must be sharp, not stretched and appealing to the viewer.
-* Contrasting colours should be used but not many of them.
-* There should be consistency between website pages of headers/ footers/ style of presentation and colours.
+* The website is inviting to new members and encourages current members to join practice sessions and social events.
+* Each page of the website is uncluttered.
+* There are plenty of opportunities to sign up for membership with a free trial period thrown in.
+* Text is easy to read as there is a lot of information to make available.
+* Photos are sharp, not stretched and appealing to the viewer.
+* Contrasting colours are used but not many of them.
+* There is consistency between website pages of headers/ footers/ style of presentation and colours.
 
 Unfortunately, the first complete version of the website did not fulfil the criteria for a good first impression.
 Many quite substantial changes were made, so a new wireframe was created to allow a comparison of old and new versions.
@@ -125,6 +123,7 @@ The wireframe view of the second complete version is provided in [Link to wirefr
 Summary of differences:-
 1. A smaller number of contrasting colours were used consistently across all pages of the website.
 2. There were too many photos in version 1 for the Home, Events and Junior pages. Only one photo remained in version 2 for each page, all main background photos.
+(The Home page is an exception as it has background images of tennis balls as well as the main background image.)
 3. Social media icons were kept in one row for all screen widths. This saves the irritation of scrolling down a long way.
 4. Number of colours reduced in header. Only the current page link was highlighted (in orange).
 5. The question "Why Play Tennis?" on the Home page was moved to the top of the background image, out of this image.
@@ -138,7 +137,7 @@ These changes resulted in positive responses from other people who saw the first
 
 #### User Stories
 Please refer to the file [user stories](assets/docs/user_stories.pdf) when reading the user story statements.
-
+(The website must answer the users' needs and the answers can be found at the location in brackets.)
 As a tennis club, we would like to:-
 1. Attract plenty of new members so that we have strong finances and can cover the cost of our new courts (see Home and Gallery pages).
 2. Retain current members so that we have long term supporters of the club contributing time, and money through membership fees
@@ -195,12 +194,13 @@ New courts photos | Gallery
 Social events photos | Gallery
 Older courts photos | Gallery
 Clubhouse photos | Gallery
+
 All these features were present within the website.
 ### Links
 Links include:-
 * links to pages within the website (Home, Events, Juniors, Gallery)
 * links to social media, opening into a separate window
-* links to external websites opening into a blank page (sites for coaching, membership secretary, venue hire and County League)
+* links to external websites opening into a new page (sites for coaching, membership secretary, venue hire and County League)
 These all function correctly.
 ### Sign-up forms
 Forms should do the following:-
@@ -263,7 +263,7 @@ Image editor [ResizePixel](https://www.resizepixel.com/). This editor was used t
 
 Code from The 'Love Running' website (The Code Institute) gallery page was used for the gallery page in this project.
 
-Code from the 'Resume' website (The Code Institute) header navigation bar was adapted for this website.
+Code from the 'Resume' website (The Code Institute) header navigation bar, and timeline was adapted for this website.
 
 ### Media
 Thanks to the Albert Lawn Tennis Club for allowing photos of the club and its members to be used in this website.
